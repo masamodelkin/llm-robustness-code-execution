@@ -1,0 +1,563 @@
+{
+    "summary": {
+        "N": 50,
+        "correct": 47,
+        "percent_correct": 94.0,
+        "indices": [
+            3231,
+            3314,
+            3678,
+            949,
+            3247,
+            1982,
+            2590,
+            1338,
+            3076,
+            3359,
+            3034,
+            4056,
+            2713,
+            1505,
+            3106,
+            4755,
+            4909,
+            2578,
+            4063,
+            208,
+            1651,
+            2743,
+            2304,
+            1825,
+            4859,
+            1159,
+            4557,
+            1288,
+            4716,
+            2794,
+            201,
+            389,
+            4546,
+            2021,
+            3088,
+            2488,
+            559,
+            3476,
+            696,
+            1502,
+            1770,
+            3165,
+            1372,
+            3369,
+            1210,
+            2323,
+            2240,
+            2011,
+            3342,
+            909
+        ],
+        "correctness": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+        ]
+    },
+    "detailed": [
+        {
+            "index": 3231,
+            "id": 64,
+            "instance": 31,
+            "question": "Yara has 14 jars of frosting in her cupboard. Each jar of frosting can decorate 8 cookies. Yara wants to bake enough cookies to use up all of her frosting. If each tray holds 8 cookies, how many trays worth of cookies should she bake?",
+            "expected_answer": "14",
+            "predicted_answer": "14",
+            "correct": true
+        },
+        {
+            "index": 3314,
+            "id": 66,
+            "instance": 14,
+            "question": "Faisal has 60 light cyan spools of thread, 108 dark cyan spools of thread, 33 light indigo spools of thread, and 99 dark indigo spools of thread. What percent of the spools are cyan?",
+            "expected_answer": "56",
+            "predicted_answer": "56.00000000000001",
+            "correct": true
+        },
+        {
+            "index": 3678,
+            "id": 73,
+            "instance": 28,
+            "question": "Comet Halley orbits the sun every 65 years. Noah's dad saw the Comet when he was 44 years old. Noah saw the comet a second time when he was two times the age his dad was when he saw the Comet. How old was Noah when he saw the Comet for the first time?",
+            "expected_answer": "23",
+            "predicted_answer": "23",
+            "correct": true
+        },
+        {
+            "index": 949,
+            "id": 18,
+            "instance": 49,
+            "question": "Arjun went to buy some school supplies. He bought 16 notebooks which cost \u20ac3.25 each, 8 folders which cost \u20ac13.25 each, and a rim of bond paper which cost \u20ac19. How much did Arjun spend on everything?",
+            "expected_answer": "177",
+            "predicted_answer": "177.0",
+            "correct": true
+        },
+        {
+            "index": 3247,
+            "id": 64,
+            "instance": 47,
+            "question": "Roya has 11 jars of sprinkles in her pantry. Each jar of sprinkles can decorate 12 cupcakes. Roya wants to bake enough cupcakes to use up all of her sprinkles. If each pan holds 6 cupcakes, how many pans worth of cupcakes should she bake?",
+            "expected_answer": "22",
+            "predicted_answer": "22",
+            "correct": true
+        },
+        {
+            "index": 1982,
+            "id": 39,
+            "instance": 32,
+            "question": "A janitor has to clean a office building with 90 rooms. They have 5 days to get it done. It takes them 15 minutes per room. If they work 15 hours each day, what percentage of their day, on average, is spent cleaning rooms?",
+            "expected_answer": "30",
+            "predicted_answer": "30.0",
+            "correct": true
+        },
+        {
+            "index": 2590,
+            "id": 51,
+            "instance": 40,
+            "question": "Jin has a vegetable stand at the local fair. He sells three kinds of vegetables: roses, orchids and lilies. He usually sells roses for \u20ac2.91 per bunch, orchids for \u20ac3.83 per bunch and lilies for \u20ac4.85 per bunch. Jin has no change today, so he has decided to round all his prices to the nearest dollar. If Jin sells 20 bunchs of roses, 20 bunchs of orchids and 40 bunchs of lilies, how much will he make?",
+            "expected_answer": "340",
+            "predicted_answer": "340",
+            "correct": true
+        },
+        {
+            "index": 1338,
+            "id": 26,
+            "instance": 38,
+            "question": "An uncle eats 4 pizzas per day, his spouse eats 5 pizzas per day, and their grandchild eats 6 pizzas per day. How many pizzas does this family eat in one week?",
+            "expected_answer": "105",
+            "predicted_answer": "105",
+            "correct": true
+        },
+        {
+            "index": 3076,
+            "id": 61,
+            "instance": 26,
+            "question": "Viktor has a bag of beads with 60 inside. He tripped over root while carrying it and dropped five-sixths of them. He scrambled to search for them but only came up with 15. When he went back home, he inspected the beads further. Six of them he picked up weren't beads, but actually beads so he got rid of it. How many beads did Viktor end up with?",
+            "expected_answer": "19",
+            "predicted_answer": "19.0",
+            "correct": true
+        },
+        {
+            "index": 3359,
+            "id": 67,
+            "instance": 9,
+            "question": "Luca's SUV breaks down. The SUV weighs 2500 kilograms and he has furniture in it weighing 200 kilograms. He also has his 3 young teammates who weigh 75 kilograms each in it. If the force to move the SUV is 4% of the weight, how much force does he need to push the SUV?",
+            "expected_answer": "117",
+            "predicted_answer": "117.0",
+            "correct": true
+        },
+        {
+            "index": 3034,
+            "id": 60,
+            "instance": 34,
+            "question": "Luca works a 6-hour shift each day, 4 days a week. He earns $16 per hour and gets a $218 bonus each week if the company performs well. How much money did Luca make in July if the company performed very well for the whole month?",
+            "expected_answer": "2408",
+            "predicted_answer": "2408",
+            "correct": true
+        },
+        {
+            "index": 4056,
+            "id": 81,
+            "instance": 6,
+            "question": "The Treasure hunt team hid 90 treats. The Lee twins each found 40 treats. All the other treats except 6 were found by their friends. How many treats did the friends find?",
+            "expected_answer": "4",
+            "predicted_answer": "4",
+            "correct": true
+        },
+        {
+            "index": 2713,
+            "id": 54,
+            "instance": 13,
+            "question": "Nadia sliced a whole mango into 31 pieces. She ate 3 slices, her cousin ate 5 more than her, and her sister ate 9 more than her cousin. How many slices of mango did they all eat?",
+            "expected_answer": "28",
+            "predicted_answer": "28",
+            "correct": true
+        },
+        {
+            "index": 1505,
+            "id": 30,
+            "instance": 5,
+            "question": "Luis has \u00a5104.52 and wants to buy 59 nuts from a bin at the hardware store. Each nut costs \u00a50.28. How much money does Luis have left after paying for the nuts?",
+            "expected_answer": "88",
+            "predicted_answer": "88.0",
+            "correct": true
+        },
+        {
+            "index": 3106,
+            "id": 62,
+            "instance": 6,
+            "question": "In a set of artist's cards, there are 75 green cards, and 20% more purple cards. Orange cards are as many as the sum of green and purple cards. How many cards of all mentioned colors are there?",
+            "expected_answer": "330",
+            "predicted_answer": "330",
+            "correct": true
+        },
+        {
+            "index": 4755,
+            "id": 95,
+            "instance": 5,
+            "question": "There are 8 students playing badminton and two times that number playing basketball. There are 30 boys and 11 girls playing table tennis. If each student only participates in one group, how many students are there in total?",
+            "expected_answer": "65",
+            "predicted_answer": "65",
+            "correct": true
+        },
+        {
+            "index": 4909,
+            "id": 98,
+            "instance": 9,
+            "question": "A new parasite infects 6 people. Every day, each infected person infects 3 others. How many people are infected after 4 days?",
+            "expected_answer": "1536",
+            "predicted_answer": "1536",
+            "correct": true
+        },
+        {
+            "index": 2578,
+            "id": 51,
+            "instance": 28,
+            "question": "Liam has a flower stand at the community market. He sells three kinds of flowers: tulips, orchids and sunflowers. He usually sells tulips for \u20ba2.58 per basket, orchids for \u20ba3.57 per basket and sunflowers for \u20ba6.09 per basket. Liam has no change today, so he has decided to round all his prices to the nearest dollar. If Liam sells 7 baskets of tulips, 27 baskets of orchids and 35 baskets of sunflowers, how much will he make?",
+            "expected_answer": "339",
+            "predicted_answer": "339",
+            "correct": true
+        },
+        {
+            "index": 4063,
+            "id": 81,
+            "instance": 13,
+            "question": "The Halloween candy hunt team hid 200 eggs. The Garcia twins each found 24 eggs. All the other eggs except 9 were found by their friends. How many eggs did the friends find?",
+            "expected_answer": "143",
+            "predicted_answer": "143",
+            "correct": true
+        },
+        {
+            "index": 208,
+            "id": 4,
+            "instance": 8,
+            "question": "Camila is popping popcorn for a snack. As the pot of kernels heats up, the kernels start popping faster. 40 pop in the first 30 seconds of cooking, then 2 times that amount in the next 30 seconds. The kernels increase to 4 times the initial popping rate in the next 30 seconds, but in the final 30 seconds, the popping slows down to half the rate as the past 30 seconds. After Camila takes the pot off the heat, a quarter of the number of kernels that popped in the final 30 seconds of cooking also pop from the residual heat. How many pieces of popcorn does Camila have to eat?",
+            "expected_answer": "380",
+            "predicted_answer": "380",
+            "correct": true
+        },
+        {
+            "index": 1651,
+            "id": 33,
+            "instance": 1,
+            "question": "Uma and Gabrielle are sisters from Amsterdam who love collecting signatures from musicians. During their spring break from school, the sisters spend every afternoon collecting signatures. After 4 weeks, Uma and Gabrielle compare their autograph books, counting up the number of signatures each sister has collected. Uma has 22 signatures in her book, and Gabrielle has 43. The sisters have 3 more weeks of spring break, and they decide they want to reach 140 signatures between them by the end of the break. How many signatures do the sisters need to collect to reach their goal?",
+            "expected_answer": "75",
+            "predicted_answer": "75",
+            "correct": true
+        },
+        {
+            "index": 2743,
+            "id": 54,
+            "instance": 43,
+            "question": "Nia sliced a whole orange into 28 pieces. She ate 4 slices, her sister ate 5 more than her, and her cousin ate 5 more than her sister. How many slices of orange did they all eat?",
+            "expected_answer": "27",
+            "predicted_answer": "27",
+            "correct": true
+        },
+        {
+            "index": 2304,
+            "id": 46,
+            "instance": 4,
+            "question": "Greenville High School is holding graduation in their Convention Center this year which has space for 8000 people. After accounting for 600 seats for graduates and 200 seats for faculty attending, how many tickets would each graduate receive to give to their friends and family if the tickets are split equally?",
+            "expected_answer": "12",
+            "predicted_answer": "12.0",
+            "correct": true
+        },
+        {
+            "index": 1825,
+            "id": 36,
+            "instance": 25,
+            "question": "Tara went to the bakery and bought various types of pastries. She bought 6 dozen donuts which cost $14 per dozen, 9 dozen mini cupcakes which cost $83 per dozen, and 3 dozen mini cheesecakes for $118 per dozen. How much was the total cost?",
+            "expected_answer": "1185",
+            "predicted_answer": "1185",
+            "correct": true
+        },
+        {
+            "index": 4859,
+            "id": 97,
+            "instance": 9,
+            "question": "Winnie operates the cash register exactly nine times as fast as her less-experienced colleague Emma. Daily, Emma processes 99 customers. What is the total weekly production for the two if they work all days of the week?",
+            "expected_answer": "6930",
+            "predicted_answer": "6930",
+            "correct": true
+        },
+        {
+            "index": 1159,
+            "id": 23,
+            "instance": 9,
+            "question": "Nia is knitting winter wear for her 3 grandchildren. They're triplets, so they're all the same size. She wants to make a vest, poncho, shawl, mittens, and booties for each of them. It takes 11 skeins of wool to make a vest, 3 for a poncho, 9 for a shawl, 10 for a pair of mittens, and 18 for a pair of booties. How many skeins of wool will she need to buy?",
+            "expected_answer": "153",
+            "predicted_answer": "153",
+            "correct": true
+        },
+        {
+            "index": 4557,
+            "id": 91,
+            "instance": 7,
+            "question": "At Ravi's house, there are ten times as many persimmons as grapes. He has a total of 31 grapes in his house. Ravi bought 44 more grapes at the store and 24 fewer persimmons than the number of grapes. Find the combined total of the number of persimmons and grapes Ravi has in the house?",
+            "expected_answer": "405",
+            "predicted_answer": "436",
+            "correct": false
+        },
+        {
+            "index": 1288,
+            "id": 25,
+            "instance": 38,
+            "question": "In Dr. Lee's class of 105 students, 20% of the class are volleyball players. Out of the remaining class, 25% of the students are debate team members or part of choir members. These 3 groups of students will need to leave early today to travel to an away performance. How many students are leaving early?",
+            "expected_answer": "42",
+            "predicted_answer": "42",
+            "correct": true
+        },
+        {
+            "index": 4716,
+            "id": 94,
+            "instance": 16,
+            "question": "656 people apply for a job at Netflix. Of the people that apply, only 25% receive interviews. Of those who receive interviews, 50% receive a job offer. Of those who receive a job offer, three-sixths of the people accept the position. How many people accept the position?",
+            "expected_answer": "41",
+            "predicted_answer": "41",
+            "correct": true
+        },
+        {
+            "index": 2794,
+            "id": 55,
+            "instance": 44,
+            "question": "Zahra is learning to write and decides to keep re-writing the hiragana (with 48 letters) until she knows it. She writes it in full ten times, writes one-fourth of it once, then re-writes everything she has already written. How many letters has Zahra written in total?",
+            "expected_answer": "984",
+            "predicted_answer": "984.0",
+            "correct": true
+        },
+        {
+            "index": 201,
+            "id": 4,
+            "instance": 1,
+            "question": "Isabella is popping popcorn for a snack. As the pan of kernels heats up, the kernels start popping faster. 20 pop in the first 18 seconds of cooking, then 3 times that amount in the next 18 seconds. The kernels increase to 4 times the initial popping rate in the next 18 seconds, but in the final 18 seconds, the popping slows down to half the rate as the past 18 seconds. After Isabella takes the pan off the heat, a quarter of the number of kernels that popped in the final 18 seconds of cooking also pop from the residual heat. How many pieces of popcorn does Isabella have to eat?",
+            "expected_answer": "210",
+            "predicted_answer": "210",
+            "correct": true
+        },
+        {
+            "index": 389,
+            "id": 7,
+            "instance": 39,
+            "question": "A farmer is buying feed for his alpacas. He buys a variety of apples, corns, beets and hay. Since hay are a rare treat, he only buys seven 4-kg boxes of them for the whole stable. He only wants enough beets to feed the alpacas while the vegetables are fresh, so he buys eleven 6-kg bags. Apples are the main diet of his alpacas, so he buys thirty four 35-kg packs. Corns are a staple to supplement the apples, so he buys sixteen 16-kg sacks. If his farm truck can carry 110 kgs at a time, how many trips does the farmer need to transport all the feed?",
+            "expected_answer": "14",
+            "predicted_answer": "14",
+            "correct": true
+        },
+        {
+            "index": 4546,
+            "id": 90,
+            "instance": 46,
+            "question": "Kai has twice as many TikTok friends as Ravi. Olivia has eight times as many friends on TikTok as Ravi. If Kai has 186 friends on TikTok, how many TikTok friends does Olivia have?",
+            "expected_answer": "744",
+            "predicted_answer": "744",
+            "correct": true
+        },
+        {
+            "index": 2021,
+            "id": 40,
+            "instance": 21,
+            "question": "Haruka went to the boardwalk for vacation. Her parents gave her \u20ac1300 to buy whatever she wanted. At the gift shop, saltwater taffy was on sale for \"Buy 16 kilograms at \u20ac21 per kilogram, get 4 kilograms 1/4 off.\" She scooped up 23 kilograms. She also bought a mixed bag of starfish for \u20ac11.5 and 15 keychains that were \u20ac20.5 each. How much money does Haruka have left?",
+            "expected_answer": "519",
+            "predicted_answer": null,
+            "correct": false
+        },
+        {
+            "index": 3088,
+            "id": 61,
+            "instance": 38,
+            "question": "Andre has a bag of coins with 36 inside. He tripped over rock while carrying it and dropped 3/4 of them. He scrambled to search for them but only came up with 19. When he went back home, he inspected the coins further. Five of them he picked up weren't coins, but actually buttons so he got rid of it. How many coins did Andre end up with?",
+            "expected_answer": "23",
+            "predicted_answer": "23.0",
+            "correct": true
+        },
+        {
+            "index": 2488,
+            "id": 49,
+            "instance": 38,
+            "question": "Qasim collects garbage from 5 different apartment complexes. The first 4 have 200 apartments each and the last one is 20% bigger than the other 4 combined. Qasim collects garbage 3 times a week from each place and he gets paid \u20ac0.45 per collection for each apartment. How much money does he make in a week?",
+            "expected_answer": "2376",
+            "predicted_answer": "2376.0",
+            "correct": true
+        },
+        {
+            "index": 559,
+            "id": 11,
+            "instance": 9,
+            "question": "Luca wants to make different sized ice cubes with 346 grams of water. He can make giant cubes that use 13 grams per cube, medium cubes that use 12 grams, and small cubes that use 1/5 of gram. If he makes 9 giant cubes, 15 small cubes, and 13 medium cubes, how many grams of water does he have left?",
+            "expected_answer": "70",
+            "predicted_answer": "70.0",
+            "correct": true
+        },
+        {
+            "index": 3476,
+            "id": 69,
+            "instance": 26,
+            "question": "On Thursday, Keisha wants to exercise for four times the amount of time he did on Wednesday and Tuesday combined. On Tuesday he exercised for 14 minutes. On Wednesday he exercised for 25 minutes. How many minutes does he have to exercise on Thursday to reach his goal?",
+            "expected_answer": "156",
+            "predicted_answer": "156",
+            "correct": true
+        },
+        {
+            "index": 696,
+            "id": 13,
+            "instance": 46,
+            "question": "Fatima is an avid gardener. Two days ago, she received 28 new potted plants from her favorite plant nursery. She already has 12 potted plants on each of the 64 window ledges of her large country home. Feeling generous, she has decided that she will give 6 potted plants from each ledge to friends and family tomorrow. How many potted plants will Fatima remain with?",
+            "expected_answer": "412",
+            "predicted_answer": "412",
+            "correct": true
+        },
+        {
+            "index": 1502,
+            "id": 30,
+            "instance": 2,
+            "question": "Luca has \u20a374.22 and wants to buy 17 washers from a bin at the hardware store. Each washer costs \u20a30.66. How much money does Luca have left after paying for the washers?",
+            "expected_answer": "63",
+            "predicted_answer": "63.0",
+            "correct": true
+        },
+        {
+            "index": 1770,
+            "id": 35,
+            "instance": 20,
+            "question": "Kai is raising money for a science fair. He has applied for help from the parent association, which has decided to cover 1/5 of the cost of the science fair. How much money is Kai missing if he has \u20ba55 and the science fair costs \u20ba520?",
+            "expected_answer": "361",
+            "predicted_answer": "361.0",
+            "correct": true
+        },
+        {
+            "index": 3165,
+            "id": 63,
+            "instance": 15,
+            "question": "A child has 20 marbles. His friend has 3 fewer marbles than he has. How many marbles do they have together?",
+            "expected_answer": "37",
+            "predicted_answer": "37",
+            "correct": true
+        },
+        {
+            "index": 1372,
+            "id": 27,
+            "instance": 22,
+            "question": "Gabriel receives 50 emails a day. 14% of those emails don't require any response. Gabriel responds to the rest of them. How many emails does Gabriel respond to in a 5 day work week?",
+            "expected_answer": "215",
+            "predicted_answer": "215.0",
+            "correct": true
+        },
+        {
+            "index": 3369,
+            "id": 67,
+            "instance": 19,
+            "question": "James's truck breaks down. The truck weighs 2150 pounds and he has equipment in it weighing 450 pounds. He also has his 2 young colleagues who weigh 50 pounds each in it. If the force to move the truck is 3% of the weight, how much force does he need to push the truck?",
+            "expected_answer": "81",
+            "predicted_answer": "81.0",
+            "correct": true
+        },
+        {
+            "index": 1210,
+            "id": 24,
+            "instance": 10,
+            "question": "According to its nutritional info, a bag of popcorn has 400 calories per serving. If a 275 grams bag has 5 servings, how many grams can you eat if your daily calorie target is 2255 and you have already consumed 1375 calories?",
+            "expected_answer": "121",
+            "predicted_answer": "121.00000000000001",
+            "correct": true
+        },
+        {
+            "index": 2323,
+            "id": 46,
+            "instance": 23,
+            "question": "Riverside Academy is holding graduation in their Gymnasium this year which has space for 5600 people. After accounting for 1300 seats for graduates and 400 seats for faculty attending, how many tickets would each graduate receive to give to their friends and family if the tickets are split equally?",
+            "expected_answer": "3",
+            "predicted_answer": "3.0",
+            "correct": true
+        },
+        {
+            "index": 2240,
+            "id": 44,
+            "instance": 40,
+            "question": "There are 20 girls in the park. If there are one-half the number of boys in the park, how many kids are in the park?",
+            "expected_answer": "30",
+            "predicted_answer": "30",
+            "correct": true
+        },
+        {
+            "index": 2011,
+            "id": 40,
+            "instance": 11,
+            "question": "Beatriz went to the coast for vacation. Her parents gave her \u20ba1400 to buy whatever she wanted. At the seaside store, cotton candy was on sale for \"Buy 15 pounds at \u20ba20 per pound, get 5 pounds 1/4 off.\" She scooped up 23 pounds. She also bought a mixed bag of coral pieces for \u20ba11.5 and 14 pins that were \u20ba20.75 each. How much money does Beatriz have left?",
+            "expected_answer": "663",
+            "predicted_answer": "678.0",
+            "correct": false
+        },
+        {
+            "index": 3342,
+            "id": 66,
+            "instance": 42,
+            "question": "Jasmine has 49 light gray spools of thread, 104 dark gray spools of thread, 20 light teal spools of thread, and 82 dark teal spools of thread. What percent of the spools are gray?",
+            "expected_answer": "60",
+            "predicted_answer": "60.0",
+            "correct": true
+        },
+        {
+            "index": 909,
+            "id": 18,
+            "instance": 9,
+            "question": "Esteban went to buy some school supplies. He bought 24 markers which cost $9.25 each, 12 erasers which cost $17.5 each, and a rim of bond paper which cost $24. How much did Esteban spend on everything?",
+            "expected_answer": "456",
+            "predicted_answer": "456.0",
+            "correct": true
+        }
+    ]
+}

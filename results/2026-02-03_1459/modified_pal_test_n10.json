@@ -1,0 +1,124 @@
+{
+    "summary": {
+        "N": 10,
+        "correct": 10,
+        "percent_correct": 100.0,
+        "indices": [
+            2247,
+            3085,
+            1092,
+            627,
+            916,
+            814,
+            2219,
+            978,
+            3603,
+            1754
+        ],
+        "correctness": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    "wrong": [],
+    "full": [
+        {
+            "index": 2247,
+            "id": 44,
+            "instance": 47,
+            "question": "There are 48 girls in the garden. If there are one-sixth the number of boys in the garden, how many kids are in the garden?",
+            "expected_answer": "56",
+            "predicted_answer": "56.0",
+            "correct": true
+        },
+        {
+            "index": 3085,
+            "id": 61,
+            "instance": 35,
+            "question": "Ravi has a bag of buttons with 92 inside. He tripped over toy while carrying it and dropped 1/2 of them. He scrambled to search for them but only came up with 10. When he went back home, he inspected the buttons further. Seven of them he picked up weren't buttons, but actually pebbles so he got rid of it. How many buttons did Ravi end up with?",
+            "expected_answer": "49",
+            "predicted_answer": "49.0",
+            "correct": true
+        },
+        {
+            "index": 1092,
+            "id": 21,
+            "instance": 42,
+            "question": "Liam watches TV after he finishes his homework every night. On Sunday and Monday, he watched a 4-hour episode of his favorite show each night. On Tuesday, he watched a few episodes of a 45-minute show. On Wednesday, he finished homework early and watched a 6-hour episode and a 30-minute show. On Thursday, he got to stay up late, so he watched three 4-hour episodes. If he watched 28 hours of TV in all, how many 45-minute episodes did he watch on Tuesday?",
+            "expected_answer": "2",
+            "predicted_answer": "2",
+            "correct": true
+        },
+        {
+            "index": 627,
+            "id": 12,
+            "instance": 27,
+            "question": "Liam places almonds on some tables. Each table can hold 36 almonds. If he has 316 almonds and 7 tables, how many almonds won't he be able to place on the table?",
+            "expected_answer": "64",
+            "predicted_answer": "64",
+            "correct": true
+        },
+        {
+            "index": 916,
+            "id": 18,
+            "instance": 16,
+            "question": "Santiago went to buy some school supplies. He bought 12 notebooks which cost $3.25 each, 10 colored pencils which cost $18.5 each, and a rim of bond paper which cost $19. How much did Santiago spend on everything?",
+            "expected_answer": "243",
+            "predicted_answer": "243.0",
+            "correct": true
+        },
+        {
+            "index": 814,
+            "id": 16,
+            "instance": 14,
+            "question": "Santiago is selling cookie and plum pie for a fundraiser. On Sunday, he sold 28 boxes of cookie and 17 fewer boxes of plum pie, than on Monday. On Monday, he sold 13 more boxes of cookies than on Sunday and 26 boxes of plum pie. If the cookie cost \u20a311 and the plum pie cost \u20a327, how much did Santiago earn for two days?",
+            "expected_answer": "1704",
+            "predicted_answer": "1704",
+            "correct": true
+        },
+        {
+            "index": 2219,
+            "id": 44,
+            "instance": 19,
+            "question": "There are 8 girls in the yard. If there are three-fourths the number of boys in the yard, how many kids are in the yard?",
+            "expected_answer": "14",
+            "predicted_answer": "14",
+            "correct": true
+        },
+        {
+            "index": 978,
+            "id": 19,
+            "instance": 28,
+            "question": "In a 80-item quiz, 10% of the questions are algebra, and the rest are equally divided as economics and history questions. If Roya is sure to get 50% of the algebra questions, and half of the economics and history questions correctly, how many points is she sure to get?",
+            "expected_answer": "40",
+            "predicted_answer": "40.0",
+            "correct": true
+        },
+        {
+            "index": 3603,
+            "id": 72,
+            "instance": 3,
+            "question": "Umar was a pen pal with 7 people. He stopped being penpals with 2 of them. They each send 3 letters a week that are 6 pages long. He responds in kind. He can write a page every 6 minutes. How many hours does he spend writing a week?",
+            "expected_answer": "9",
+            "predicted_answer": "9.0",
+            "correct": true
+        },
+        {
+            "index": 1754,
+            "id": 35,
+            "instance": 4,
+            "question": "Gabriel is raising money for a sports tournament. He has applied for help from the community center, which has decided to cover 1/3 of the cost of the sports tournament. How much money is Gabriel missing if he has \u20ac120 and the sports tournament costs \u20ac720?",
+            "expected_answer": "360",
+            "predicted_answer": "360.0",
+            "correct": true
+        }
+    ]
+}

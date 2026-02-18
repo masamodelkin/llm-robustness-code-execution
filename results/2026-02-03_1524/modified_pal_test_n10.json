@@ -1,0 +1,124 @@
+{
+    "summary": {
+        "N": 10,
+        "correct": 10,
+        "percent_correct": 100.0,
+        "indices": [
+            3139,
+            4768,
+            1322,
+            1536,
+            622,
+            4763,
+            537,
+            3310,
+            4639,
+            2115
+        ],
+        "correctness": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    "wrong": [],
+    "full": [
+        {
+            "index": 3139,
+            "id": 62,
+            "instance": 39,
+            "question": "In a set of chef's cards, there are 40 orange cards, and 40% more purple cards. Blue cards are as many as the sum of orange and purple cards. How many cards of all mentioned colors are there?",
+            "expected_answer": "192",
+            "predicted_answer": "192",
+            "correct": true
+        },
+        {
+            "index": 4768,
+            "id": 95,
+            "instance": 18,
+            "question": "There are 12 students playing table tennis and twice that number playing football. There are 16 boys and 27 girls playing volleyball. If each student only participates in one group, how many students are there in total?",
+            "expected_answer": "79",
+            "predicted_answer": "79",
+            "correct": true
+        },
+        {
+            "index": 1322,
+            "id": 26,
+            "instance": 22,
+            "question": "An uncle eats 4 hamburgers per day, his spouse eats 4 hamburgers per day, and their grandchild eats 6 hamburgers per day. How many hamburgers does this family eat in one month?",
+            "expected_answer": "420",
+            "predicted_answer": "420",
+            "correct": true
+        },
+        {
+            "index": 1536,
+            "id": 30,
+            "instance": 36,
+            "question": "Esteban has \u20ac72.2 and wants to buy 20 nails from a bin at the construction supply store. Each nail costs \u20ac0.11. How much money does Esteban have left after paying for the nails?",
+            "expected_answer": "70",
+            "predicted_answer": "70.0",
+            "correct": true
+        },
+        {
+            "index": 622,
+            "id": 12,
+            "instance": 22,
+            "question": "Alejandro places bananas on some baskets. Each basket can hold 20 bananas. If he has 304 bananas and 9 baskets, how many bananas won't he be able to place on the basket?",
+            "expected_answer": "124",
+            "predicted_answer": "124",
+            "correct": true
+        },
+        {
+            "index": 4763,
+            "id": 95,
+            "instance": 13,
+            "question": "There are 12 students playing volleyball and three times that number playing basketball. There are 12 boys and 14 girls playing football. If each student only participates in one group, how many students are there in total?",
+            "expected_answer": "74",
+            "predicted_answer": "74",
+            "correct": true
+        },
+        {
+            "index": 537,
+            "id": 10,
+            "instance": 37,
+            "question": "To make a call from a hotel room phone, you must pay \u20ac0.7 for each minute of your call. After 10 minutes, that price drops to \u20ac0.2 per minute. How much would a 60-minute call cost?",
+            "expected_answer": "17",
+            "predicted_answer": "17.0",
+            "correct": true
+        },
+        {
+            "index": 3310,
+            "id": 66,
+            "instance": 10,
+            "question": "Yara has 77 light magenta spools of thread, 130 dark magenta spools of thread, 23 light cyan spools of thread, and 70 dark cyan spools of thread. What percent of the spools are magenta?",
+            "expected_answer": "69",
+            "predicted_answer": "69.0",
+            "correct": true
+        },
+        {
+            "index": 4639,
+            "id": 92,
+            "instance": 39,
+            "question": "Alejandro slew 250 giants with his mighty war hammer, while Luis, using a halberd, slew one-half as many giants as Alejandro. Using a bone dagger, Oscar slew two times as many giants as Luis. But Carlos, having forgotten his hammer at home, slew one-half as many giants as Oscar using a feather. How many giants has Carlos slain?",
+            "expected_answer": "125",
+            "predicted_answer": "125.0",
+            "correct": true
+        },
+        {
+            "index": 2115,
+            "id": 42,
+            "instance": 15,
+            "question": "Ali goes to the store to buy some flour. The normal brand of flour he buys costs \u00a510 per kilogram. He had to buy a more expensive brand that costs 40% more since his favorite brand was sold out. He decides to buy a week's worth of flour and he uses 2 kilogram of flour per day. He also decided to buy himself a cookie for \u00a53. How much did everything cost?",
+            "expected_answer": "199",
+            "predicted_answer": "199.0",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "summary": {
+        "N": 1,
+        "correct": 0,
+        "percent_correct": 0.0,
+        "indices": [
+            4562
+        ],
+        "correctness": [
+            false
+        ]
+    },
+    "wrong": [
+        {
+            "index": 4562,
+            "id": 91,
+            "instance": 12,
+            "question": "At Ibrahim's house, there are six times as many bananas as persimmons. He has a total of 87 persimmons in his house. Ibrahim bought 76 more persimmons at the store and 18 fewer bananas than the number of persimmons. Find the combined total of the number of bananas and persimmons Ibrahim has in the house?",
+            "expected_answer": "743",
+            "predicted_answer": "830",
+            "model_response": "\n    \"\"\"At Ibrahim's house, there are six times as many bananas as persimmons. He has a total of 87 persimmons in his house. Ibrahim bought 76 more persimmons at the store and 18 fewer bananas than the number of persimmons. Find the combined total of the number of bananas and persimmons Ibrahim has in the house?\"\"\"\n    persimmons_initial = 87\n    bananas_initial = 6 * persimmons_initial\n    \n    persimmons_bought = 76\n    persimmons_total = persimmons_initial + persimmons_bought\n    \n    bananas_bought = persimmons_total - 18\n    bananas_total = bananas_initial + bananas_bought\n    \n    combined_total = bananas_total + persimmons_total\n    result = combined_total\n    return result"
+        }
+    ],
+    "full": [
+        {
+            "index": 4562,
+            "id": 91,
+            "instance": 12,
+            "question": "At Ibrahim's house, there are six times as many bananas as persimmons. He has a total of 87 persimmons in his house. Ibrahim bought 76 more persimmons at the store and 18 fewer bananas than the number of persimmons. Find the combined total of the number of bananas and persimmons Ibrahim has in the house?",
+            "expected_answer": "743",
+            "predicted_answer": "830",
+            "correct": false
+        }
+    ]
+}

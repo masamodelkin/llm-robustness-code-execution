@@ -1,0 +1,25 @@
+{
+    "summary": {
+        "N": 1,
+        "correct": 1,
+        "percent_correct": 100.0,
+        "indices": [
+            652
+        ],
+        "correctness": [
+            true
+        ]
+    },
+    "wrong": [],
+    "full": [
+        {
+            "index": 652,
+            "id": 13,
+            "instance": 2,
+            "question": "Ananya is an avid gardener. Last night, she received 34 new potted plants from her favorite plant nursery. She already has 11 potted plants on each of the 62 window ledges of her large country home. Feeling generous, she has decided that she will give 3 potted plants from each ledge to friends and family tomorrow. How many potted plants will Ananya remain with?",
+            "expected_answer": "530",
+            "predicted_answer": "530",
+            "correct": true
+        }
+    ]
+}

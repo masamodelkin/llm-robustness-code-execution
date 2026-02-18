@@ -1,0 +1,25 @@
+{
+    "summary": {
+        "N": 1,
+        "correct": 1,
+        "percent_correct": 100.0,
+        "indices": [
+            4562
+        ],
+        "correctness": [
+            true
+        ]
+    },
+    "wrong": [],
+    "full": [
+        {
+            "index": 4562,
+            "id": 91,
+            "instance": 12,
+            "question": "At Ibrahim's house, there are six times as many bananas as persimmons. He has a total of 87 persimmons in his house. Ibrahim bought 76 more persimmons at the store and 18 fewer bananas than the number of persimmons. Find the combined total of the number of bananas and persimmons Ibrahim has in the house?",
+            "expected_answer": "743",
+            "predicted_answer": "743",
+            "correct": true
+        }
+    ]
+}

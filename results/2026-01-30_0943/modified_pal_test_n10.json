@@ -1,0 +1,123 @@
+{
+    "summary": {
+        "N": 10,
+        "correct": 9,
+        "percent_correct": 90.0,
+        "indices": [
+            4458,
+            4252,
+            2399,
+            1809,
+            3719,
+            2209,
+            2546,
+            1896,
+            1439,
+            851
+        ],
+        "correctness": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    "detailed": [
+        {
+            "index": 4458,
+            "id": 89,
+            "instance": 8,
+            "question": "Oliver hires a party bus from 3 PM to 11 PM. He gets 2 hours free. The first paid hour is \u00a531 and each hour after that is twice the cost. How much did he pay?",
+            "expected_answer": "341",
+            "predicted_answer": "1953",
+            "correct": false
+        },
+        {
+            "index": 4252,
+            "id": 85,
+            "instance": 2,
+            "question": "If Oliver and Kayla have 580 meters of fence between them, and they agree to split it with Kayla getting 160 meters more than Oliver, how much is left over for Oliver?",
+            "expected_answer": "210",
+            "predicted_answer": "210",
+            "correct": true
+        },
+        {
+            "index": 2399,
+            "id": 47,
+            "instance": 49,
+            "question": "Pavel hid 4 dozen eggs in the yard for the Easter egg hunt. Emma finds 4 eggs. Ali finds twice as many as Emma. Gabrielle finds 2 less than Ali, and Kimia finds 1/3 as many as Gabrielle. How many eggs are still hidden in the yard?",
+            "expected_answer": "28",
+            "predicted_answer": "28",
+            "correct": true
+        },
+        {
+            "index": 1809,
+            "id": 36,
+            "instance": 9,
+            "question": "Sofia went to the confectionery and bought various types of desserts. She bought 9 dozen eclairs which cost $15 per dozen, 8 dozen cookies which cost $87 per dozen, and 3 dozen muffins for $115 per dozen. How much was the total cost?",
+            "expected_answer": "1176",
+            "predicted_answer": "1176",
+            "correct": true
+        },
+        {
+            "index": 3719,
+            "id": 74,
+            "instance": 19,
+            "question": "There are 101 third-graders at Sunny Hill School. 69 of them are girls. On Wednesday, 9 third-grade girls and 2 third-grade boys were absent. How many third grade boys were at Sunny Hill School on Wednesday?",
+            "expected_answer": "30",
+            "predicted_answer": "30",
+            "correct": true
+        },
+        {
+            "index": 2209,
+            "id": 44,
+            "instance": 9,
+            "question": "There are 15 girls in the playground. If there are 3/5 the number of boys in the playground, how many kids are in the playground?",
+            "expected_answer": "24",
+            "predicted_answer": "24.0",
+            "correct": true
+        },
+        {
+            "index": 2546,
+            "id": 50,
+            "instance": 46,
+            "question": "The area of Andre's rectangular study is 660 square meters. If the length of his room is 5 meters, what is the perimeter of the room in meters?",
+            "expected_answer": "274",
+            "predicted_answer": "274.0",
+            "correct": true
+        },
+        {
+            "index": 1896,
+            "id": 37,
+            "instance": 46,
+            "question": "A lasagna has 48 portions. If Fatima can eat 3 portions a day while Nia can eat seven times as much, how many days will the lasagna last?",
+            "expected_answer": "2",
+            "predicted_answer": "2",
+            "correct": true
+        },
+        {
+            "index": 1439,
+            "id": 28,
+            "instance": 39,
+            "question": "A hospital has a capacity of 1800 wards with 1/9 occupied. Due to the flu season, 65 patients are admitted into the hospital each day. Calculate the total number of unoccupied wards in the hospital after 2 weeks.",
+            "expected_answer": "690",
+            "predicted_answer": "690.0",
+            "correct": true
+        },
+        {
+            "index": 851,
+            "id": 17,
+            "instance": 1,
+            "question": "Daphne walks 28 kilometers every day on her favorite walking trail, which includes 16 kilometers of walking on the beach and 12 kilometers of walking on the sidewalk. On the sidewalk, Daphne walks at three times the rate of speed that she does on the beach. If 64 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 28-kilometer walk, in minutes?",
+            "expected_answer": "80",
+            "predicted_answer": "80.0",
+            "correct": true
+        }
+    ]
+}

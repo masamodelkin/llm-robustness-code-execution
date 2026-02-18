@@ -1,0 +1,195 @@
+{
+    "summary": {
+        "N": 10,
+        "correct": 9,
+        "percent_correct": 90.0,
+        "indices": [
+            3139,
+            4768,
+            1322,
+            1536,
+            622,
+            4763,
+            537,
+            3310,
+            4639,
+            2115
+        ],
+        "correctness": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+        ]
+    },
+    "wrong": [
+        {
+            "index": 4639,
+            "id": 92,
+            "instance": 39,
+            "question": "Alejandro slew 250 giants with his mighty war hammer, while Luis, using a halberd, slew one-half as many giants as Alejandro. Using a bone dagger, Oscar slew two times as many giants as Luis. But Carlos, having forgotten his hammer at home, slew one-half as many giants as Oscar using a feather. How many giants has Carlos slain?",
+            "expected_answer": "125",
+            "predicted_answer": null,
+            "model_response": [
+                {
+                    "role": "user",
+                    "content": "Example 1:\nQ: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\n\nStep 1: Identify the initial number of trees\n```python\ntrees_initial = 15\nprint(f\"Initial trees: {trees_initial}\")\n```\n```output\nInitial trees: 15\n```\n\nStep 2: Identify the final number of trees\n```python\ntrees_after = 21\nprint(f\"Trees after planting: {trees_after}\")\n```\n```output\nTrees after planting: 21\n```\n\nStep 3: Calculate how many trees were planted\n```python\ntrees_initial = 15\ntrees_after = 21\ntrees_planted = trees_after - trees_initial\nprint(f\"Trees planted: {trees_planted}\")\n```\n```output\nTrees planted: 6\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 6\")\n```\n###END OF CODE\n\nExample 2:\nQ: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?\n\nStep 1: Identify initial cars and arriving cars\n```python\ncars_initial = 3\ncars_arrived = 2\nprint(f\"Initial: {cars_initial}, Arrived: {cars_arrived}\")\n```\n```output\nInitial: 3, Arrived: 2\n```\n\nStep 2: Calculate total cars\n```python\ncars_initial = 3\ncars_arrived = 2\ntotal_cars = cars_initial + cars_arrived\nprint(f\"Total cars: {total_cars}\")\n```\n```output\nTotal cars: 5\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 5\")\n```\n###END OF CODE\n\nExample 3:\nQ: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\n\nStep 1: Calculate total chocolates they had together\n```python\nleah_chocolates = 32\nsister_chocolates = 42\ntotal_chocolates = leah_chocolates + sister_chocolates\nprint(f\"Total chocolates: {total_chocolates}\")\n```\n```output\nTotal chocolates: 74\n```\n\nStep 2: Calculate chocolates left after eating\n```python\ntotal_chocolates = 74\nchocolates_eaten = 35\nchocolates_left = total_chocolates - chocolates_eaten\nprint(f\"Chocolates left: {chocolates_left}\")\n```\n```output\nChocolates left: 39\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 39\")\n```\n###END OF CODE\n\nExample 4:\nQ: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\n\nStep 1: Identify Jason's initial and final lollipop counts\n```python\njason_initial = 20\njason_after = 12\nprint(f\"Initial: {jason_initial}, After: {jason_after}\")\n```\n```output\nInitial: 20, After: 12\n```\n\nStep 2: Calculate lollipops given to Denny\n```python\njason_initial = 20\njason_after = 12\ngiven_to_denny = jason_initial - jason_after\nprint(f\"Given to Denny: {given_to_denny}\")\n```\n```output\nGiven to Denny: 8\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nExample 5:\nQ: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\n\nStep 1: Identify initial toys\n```python\ntoys_initial = 5\nprint(f\"Initial toys: {toys_initial}\")\n```\n```output\nInitial toys: 5\n```\n\nStep 2: Calculate toys received from mom and dad\n```python\ntoys_from_mom = 2\ntoys_from_dad = 2\ntotal_received = toys_from_mom + toys_from_dad\nprint(f\"Total received: {total_received}\")\n```\n```output\nTotal received: 4\n```\n\nStep 3: Calculate total toys now\n```python\ntoys_initial = 5\ntotal_received = 4\ntotal_toys = toys_initial + total_received\nprint(f\"Total toys: {total_toys}\")\n```\n```output\nTotal toys: 9\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 9\")\n```\n###END OF CODE\n\nExample 6:\nQ: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?\n\nStep 1: Identify initial computers and daily installation rate\n```python\ncomputers_initial = 9\ncomputers_per_day = 5\nprint(f\"Initial: {computers_initial}, Per day: {computers_per_day}\")\n```\n```output\nInitial: 9, Per day: 5\n```\n\nStep 2: Calculate number of days (Monday to Thursday)\n```python\n# Monday, Tuesday, Wednesday, Thursday = 4 days\nnum_days = 4\nprint(f\"Number of days: {num_days}\")\n```\n```output\nNumber of days: 4\n```\n\nStep 3: Calculate total computers added\n```python\ncomputers_per_day = 5\nnum_days = 4\ncomputers_added = computers_per_day * num_days\nprint(f\"Computers added: {computers_added}\")\n```\n```output\nComputers added: 20\n```\n\nStep 4: Calculate total computers now\n```python\ncomputers_initial = 9\ncomputers_added = 20\ncomputers_total = computers_initial + computers_added\nprint(f\"Total computers: {computers_total}\")\n```\n```output\nTotal computers: 29\n```\n\nStep 5: Final Answer\n```python\nprint(f\"The answer is 29\")\n```\n###END OF CODE\n\nExample 7:\nQ: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\n\nStep 1: Identify initial golf balls\n```python\ngolf_balls_initial = 58\nprint(f\"Initial golf balls: {golf_balls_initial}\")\n```\n```output\nInitial golf balls: 58\n```\n\nStep 2: Calculate golf balls after Tuesday's loss\n```python\ngolf_balls_initial = 58\nlost_tuesday = 23\nafter_tuesday = golf_balls_initial - lost_tuesday\nprint(f\"After Tuesday: {after_tuesday}\")\n```\n```output\nAfter Tuesday: 35\n```\n\nStep 3: Calculate golf balls after Wednesday's loss\n```python\nafter_tuesday = 35\nlost_wednesday = 2\nafter_wednesday = after_tuesday - lost_wednesday\nprint(f\"After Wednesday: {after_wednesday}\")\n```\n```output\nAfter Wednesday: 33\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 33\")\n```\n###END OF CODE\n\nExample 8:\nQ: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\n\nStep 1: Identify initial money and bagel details\n```python\nmoney_initial = 23\nnum_bagels = 5\nprice_per_bagel = 3\nprint(f\"Initial: ${money_initial}, Bagels: {num_bagels}, Price: ${price_per_bagel}\")\n```\n```output\nInitial: $23, Bagels: 5, Price: $3\n```\n\nStep 2: Calculate total spent on bagels\n```python\nnum_bagels = 5\nprice_per_bagel = 3\nmoney_spent = num_bagels * price_per_bagel\nprint(f\"Money spent: ${money_spent}\")\n```\n```output\nMoney spent: $15\n```\n\nStep 3: Calculate money left\n```python\nmoney_initial = 23\nmoney_spent = 15\nmoney_left = money_initial - money_spent\nprint(f\"Money left: ${money_left}\")\n```\n```output\nMoney left: $8\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nNow solve this problem step-by-step:\nQ: Alejandro slew 250 giants with his mighty war hammer, while Luis, using a halberd, slew one-half as many giants as Alejandro. Using a bone dagger, Oscar slew two times as many giants as Luis. But Carlos, having forgotten his hammer at home, slew one-half as many giants as Oscar using a feather. How many giants has Carlos slain?"
+                },
+                {
+                    "role": "assistant",
+                    "content": "\nStep 1:"
+                },
+                {
+                    "role": "assistant",
+                    "content": " Identify the number of giants Alejandro slew\n```python\nalejandro_giants = 250\nprint(f\"Alejandro slew: {alejandro_giants} giants\")\n```\n"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nAlejandro slew: 250 giants"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 2: Calculate the number of giants Luis slew (one-half as many as Alejandro)\n```python\nalejandro_giants = 250\nluis_giants = alejandro_giants / 2\nprint(f\"Luis slew: {luis_giants} giants\")\n```\n"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nLuis slew: 125.0 giants"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 3: Calculate the number of giants Oscar slew (two times as many as Luis)\n```python\nluis_giants = 125.0\noscar_giants = luis_giants * 2\nprint(f\"Oscar slew: {oscar_giants} giants\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nOscar slew: 250.0 giants"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 4: Calculate the number of giants Carlos slew (one-half as many as Oscar)\n```python\noscar_giants = 250.0\ncarlos_giants = oscar_giants / 2\nprint(f\"Carlos slew: {carlos_giants} giants\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nCarlos slew: 125.0 giants"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 5: Final Answer\n```python\nprint(f\"The answer is {int(carlos_giants)}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nError: name 'carlos_giants' is not defined"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 5: Final Answer\n```python\ncarlos_giants = 125.0\nprint(f\"The answer is {int(carlos_giants)}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nThe answer is 125"
+                },
+                {
+                    "role": "assistant",
+                    "content": "###END OF CODE"
+                }
+            ]
+        }
+    ],
+    "full": [
+        {
+            "index": 3139,
+            "id": 62,
+            "instance": 39,
+            "question": "In a set of chef's cards, there are 40 orange cards, and 40% more purple cards. Blue cards are as many as the sum of orange and purple cards. How many cards of all mentioned colors are there?",
+            "expected_answer": "192",
+            "predicted_answer": "192",
+            "correct": true
+        },
+        {
+            "index": 4768,
+            "id": 95,
+            "instance": 18,
+            "question": "There are 12 students playing table tennis and twice that number playing football. There are 16 boys and 27 girls playing volleyball. If each student only participates in one group, how many students are there in total?",
+            "expected_answer": "79",
+            "predicted_answer": "79",
+            "correct": true
+        },
+        {
+            "index": 1322,
+            "id": 26,
+            "instance": 22,
+            "question": "An uncle eats 4 hamburgers per day, his spouse eats 4 hamburgers per day, and their grandchild eats 6 hamburgers per day. How many hamburgers does this family eat in one month?",
+            "expected_answer": "420",
+            "predicted_answer": "420",
+            "correct": true
+        },
+        {
+            "index": 1536,
+            "id": 30,
+            "instance": 36,
+            "question": "Esteban has \u20ac72.2 and wants to buy 20 nails from a bin at the construction supply store. Each nail costs \u20ac0.11. How much money does Esteban have left after paying for the nails?",
+            "expected_answer": "70",
+            "predicted_answer": "70.0",
+            "correct": true
+        },
+        {
+            "index": 622,
+            "id": 12,
+            "instance": 22,
+            "question": "Alejandro places bananas on some baskets. Each basket can hold 20 bananas. If he has 304 bananas and 9 baskets, how many bananas won't he be able to place on the basket?",
+            "expected_answer": "124",
+            "predicted_answer": "124",
+            "correct": true
+        },
+        {
+            "index": 4763,
+            "id": 95,
+            "instance": 13,
+            "question": "There are 12 students playing volleyball and three times that number playing basketball. There are 12 boys and 14 girls playing football. If each student only participates in one group, how many students are there in total?",
+            "expected_answer": "74",
+            "predicted_answer": "74",
+            "correct": true
+        },
+        {
+            "index": 537,
+            "id": 10,
+            "instance": 37,
+            "question": "To make a call from a hotel room phone, you must pay \u20ac0.7 for each minute of your call. After 10 minutes, that price drops to \u20ac0.2 per minute. How much would a 60-minute call cost?",
+            "expected_answer": "17",
+            "predicted_answer": "17.0",
+            "correct": true
+        },
+        {
+            "index": 3310,
+            "id": 66,
+            "instance": 10,
+            "question": "Yara has 77 light magenta spools of thread, 130 dark magenta spools of thread, 23 light cyan spools of thread, and 70 dark cyan spools of thread. What percent of the spools are magenta?",
+            "expected_answer": "69",
+            "predicted_answer": "69.0",
+            "correct": true
+        },
+        {
+            "index": 4639,
+            "id": 92,
+            "instance": 39,
+            "question": "Alejandro slew 250 giants with his mighty war hammer, while Luis, using a halberd, slew one-half as many giants as Alejandro. Using a bone dagger, Oscar slew two times as many giants as Luis. But Carlos, having forgotten his hammer at home, slew one-half as many giants as Oscar using a feather. How many giants has Carlos slain?",
+            "expected_answer": "125",
+            "predicted_answer": null,
+            "correct": false
+        },
+        {
+            "index": 2115,
+            "id": 42,
+            "instance": 15,
+            "question": "Ali goes to the store to buy some flour. The normal brand of flour he buys costs \u00a510 per kilogram. He had to buy a more expensive brand that costs 40% more since his favorite brand was sold out. He decides to buy a week's worth of flour and he uses 2 kilogram of flour per day. He also decided to buy himself a cookie for \u00a53. How much did everything cost?",
+            "expected_answer": "199",
+            "predicted_answer": "199",
+            "correct": true
+        }
+    ]
+}

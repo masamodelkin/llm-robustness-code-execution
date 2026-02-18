@@ -1,0 +1,25 @@
+{
+    "summary": {
+        "N": 1,
+        "correct": 1,
+        "percent_correct": 100.0,
+        "indices": [
+            4562
+        ],
+        "correctness": [
+            true
+        ]
+    },
+    "wrong": [],
+    "full": [
+        {
+            "index": 4562,
+            "id": 91,
+            "instance": 12,
+            "question": "At Allan's house, there is twice as much corn as cannolis. He has a total of 40 cannolis in his house. Allan bought 60 more cannolis at the store and 40 fewer corns than the number of cannolis. Find the combined total of the number of corns and cannolis Allan has in the house?",
+            "expected_answer": "200",
+            "predicted_answer": "200",
+            "correct": true
+        }
+    ]
+}

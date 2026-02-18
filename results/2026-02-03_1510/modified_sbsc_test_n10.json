@@ -1,0 +1,257 @@
+{
+    "summary": {
+        "N": 10,
+        "correct": 8,
+        "percent_correct": 80.0,
+        "indices": [
+            2207,
+            4783,
+            1243,
+            2258,
+            4716,
+            4277,
+            4355,
+            3403,
+            2320,
+            4373
+        ],
+        "correctness": [
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    "wrong": [
+        {
+            "index": 2258,
+            "id": 45,
+            "instance": 8,
+            "question": "Chen has a flower bed that is 165 meters long. Chen wants to fill her flower bed with plants. Chen's flowers grow 7 meters wide so she needs to leave 13.75 meters between every plant. Chen already owns 10 flowers. Each flowering plant costs \u00a54 at the store, how much money will Chen spend at the store to fill up her flower bed?",
+            "expected_answer": "8",
+            "predicted_answer": "0",
+            "model_response": [
+                {
+                    "role": "user",
+                    "content": "Example 1:\nQ: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\n\nStep 1: Identify the initial number of trees\n```python\ntrees_initial = 15\nprint(f\"Initial trees: {trees_initial}\")\n```\n```output\nInitial trees: 15\n```\n\nStep 2: Identify the final number of trees\n```python\ntrees_after = 21\nprint(f\"Trees after planting: {trees_after}\")\n```\n```output\nTrees after planting: 21\n```\n\nStep 3: Calculate how many trees were planted\n```python\ntrees_initial = 15\ntrees_after = 21\ntrees_planted = trees_after - trees_initial\nprint(f\"Trees planted: {trees_planted}\")\n```\n```output\nTrees planted: 6\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 6\")\n```\n###END OF CODE\n\nExample 2:\nQ: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?\n\nStep 1: Identify initial cars and arriving cars\n```python\ncars_initial = 3\ncars_arrived = 2\nprint(f\"Initial: {cars_initial}, Arrived: {cars_arrived}\")\n```\n```output\nInitial: 3, Arrived: 2\n```\n\nStep 2: Calculate total cars\n```python\ncars_initial = 3\ncars_arrived = 2\ntotal_cars = cars_initial + cars_arrived\nprint(f\"Total cars: {total_cars}\")\n```\n```output\nTotal cars: 5\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 5\")\n```\n###END OF CODE\n\nExample 3:\nQ: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\n\nStep 1: Calculate total chocolates they had together\n```python\nleah_chocolates = 32\nsister_chocolates = 42\ntotal_chocolates = leah_chocolates + sister_chocolates\nprint(f\"Total chocolates: {total_chocolates}\")\n```\n```output\nTotal chocolates: 74\n```\n\nStep 2: Calculate chocolates left after eating\n```python\ntotal_chocolates = 74\nchocolates_eaten = 35\nchocolates_left = total_chocolates - chocolates_eaten\nprint(f\"Chocolates left: {chocolates_left}\")\n```\n```output\nChocolates left: 39\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 39\")\n```\n###END OF CODE\n\nExample 4:\nQ: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\n\nStep 1: Identify Jason's initial and final lollipop counts\n```python\njason_initial = 20\njason_after = 12\nprint(f\"Initial: {jason_initial}, After: {jason_after}\")\n```\n```output\nInitial: 20, After: 12\n```\n\nStep 2: Calculate lollipops given to Denny\n```python\njason_initial = 20\njason_after = 12\ngiven_to_denny = jason_initial - jason_after\nprint(f\"Given to Denny: {given_to_denny}\")\n```\n```output\nGiven to Denny: 8\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nExample 5:\nQ: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\n\nStep 1: Identify initial toys\n```python\ntoys_initial = 5\nprint(f\"Initial toys: {toys_initial}\")\n```\n```output\nInitial toys: 5\n```\n\nStep 2: Calculate toys received from mom and dad\n```python\ntoys_from_mom = 2\ntoys_from_dad = 2\ntotal_received = toys_from_mom + toys_from_dad\nprint(f\"Total received: {total_received}\")\n```\n```output\nTotal received: 4\n```\n\nStep 3: Calculate total toys now\n```python\ntoys_initial = 5\ntotal_received = 4\ntotal_toys = toys_initial + total_received\nprint(f\"Total toys: {total_toys}\")\n```\n```output\nTotal toys: 9\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 9\")\n```\n###END OF CODE\n\nExample 6:\nQ: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?\n\nStep 1: Identify initial computers and daily installation rate\n```python\ncomputers_initial = 9\ncomputers_per_day = 5\nprint(f\"Initial: {computers_initial}, Per day: {computers_per_day}\")\n```\n```output\nInitial: 9, Per day: 5\n```\n\nStep 2: Calculate number of days (Monday to Thursday)\n```python\n# Monday, Tuesday, Wednesday, Thursday = 4 days\nnum_days = 4\nprint(f\"Number of days: {num_days}\")\n```\n```output\nNumber of days: 4\n```\n\nStep 3: Calculate total computers added\n```python\ncomputers_per_day = 5\nnum_days = 4\ncomputers_added = computers_per_day * num_days\nprint(f\"Computers added: {computers_added}\")\n```\n```output\nComputers added: 20\n```\n\nStep 4: Calculate total computers now\n```python\ncomputers_initial = 9\ncomputers_added = 20\ncomputers_total = computers_initial + computers_added\nprint(f\"Total computers: {computers_total}\")\n```\n```output\nTotal computers: 29\n```\n\nStep 5: Final Answer\n```python\nprint(f\"The answer is 29\")\n```\n###END OF CODE\n\nExample 7:\nQ: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\n\nStep 1: Identify initial golf balls\n```python\ngolf_balls_initial = 58\nprint(f\"Initial golf balls: {golf_balls_initial}\")\n```\n```output\nInitial golf balls: 58\n```\n\nStep 2: Calculate golf balls after Tuesday's loss\n```python\ngolf_balls_initial = 58\nlost_tuesday = 23\nafter_tuesday = golf_balls_initial - lost_tuesday\nprint(f\"After Tuesday: {after_tuesday}\")\n```\n```output\nAfter Tuesday: 35\n```\n\nStep 3: Calculate golf balls after Wednesday's loss\n```python\nafter_tuesday = 35\nlost_wednesday = 2\nafter_wednesday = after_tuesday - lost_wednesday\nprint(f\"After Wednesday: {after_wednesday}\")\n```\n```output\nAfter Wednesday: 33\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 33\")\n```\n###END OF CODE\n\nExample 8:\nQ: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\n\nStep 1: Identify initial money and bagel details\n```python\nmoney_initial = 23\nnum_bagels = 5\nprice_per_bagel = 3\nprint(f\"Initial: ${money_initial}, Bagels: {num_bagels}, Price: ${price_per_bagel}\")\n```\n```output\nInitial: $23, Bagels: 5, Price: $3\n```\n\nStep 2: Calculate total spent on bagels\n```python\nnum_bagels = 5\nprice_per_bagel = 3\nmoney_spent = num_bagels * price_per_bagel\nprint(f\"Money spent: ${money_spent}\")\n```\n```output\nMoney spent: $15\n```\n\nStep 3: Calculate money left\n```python\nmoney_initial = 23\nmoney_spent = 15\nmoney_left = money_initial - money_spent\nprint(f\"Money left: ${money_left}\")\n```\n```output\nMoney left: $8\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nNow solve this problem step-by-step:\nQ: Chen has a flower bed that is 165 meters long. Chen wants to fill her flower bed with plants. Chen's flowers grow 7 meters wide so she needs to leave 13.75 meters between every plant. Chen already owns 10 flowers. Each flowering plant costs \u00a54 at the store, how much money will Chen spend at the store to fill up her flower bed?"
+                },
+                {
+                    "role": "assistant",
+                    "content": "\nStep 1:"
+                },
+                {
+                    "role": "assistant",
+                    "content": " Identify the flower bed length and flower dimensions\n```python\nflower_bed_length = 165  # meters\nflower_width = 7  # meters\nspace_between = 13.75  # meters\nflowers_owned = 10\ncost_per_flower = 4  # \u00a5\nprint(f\"Flower bed length: {flower_bed_length}m\")\nprint(f\"Flower width: {flower_width}m\")\nprint(f\"Space between flowers: {space_between}m\")\nprint(f\"Flowers already owned: {flowers_owned}\")\nprint(f\"Cost per flower: \u00a5{cost_per_flower}\")\n```\n"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nFlower bed length: 165m\nFlower width: 7m\nSpace between flowers: 13.75m\nFlowers already owned: 10\nCost per flower: \u00a54"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 2: Calculate the space occupied by each flower plus the spacing after it\n```python\nflower_width = 7\nspace_between = 13.75\nspace_per_flower_unit = flower_width + space_between\nprint(f\"Space per flower (width + spacing): {space_per_flower_unit} meters\")\n```\n"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nSpace per flower (width + spacing): 20.75 meters"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 3: Calculate how many flowers can fit in the flower bed\n```python\nflower_bed_length = 165\nspace_per_flower_unit = 20.75\nnum_flowers_needed = flower_bed_length / space_per_flower_unit\nprint(f\"Number of flowers that fit: {num_flowers_needed}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nNumber of flowers that fit: 7.951807228915663"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 4: Round down to get the whole number of flowers that can fit\n```python\nimport math\nnum_flowers_needed = 7.951807228915663\nnum_flowers_fit = math.floor(num_flowers_needed)\nprint(f\"Whole flowers that fit: {num_flowers_fit}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nWhole flowers that fit: 7"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 5: Calculate how many additional flowers Chen needs to buy\n```python\nnum_flowers_fit = 7\nflowers_owned = 10\nflowers_to_buy = num_flowers_fit - flowers_owned\nprint(f\"Flowers to buy: {flowers_to_buy}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nFlowers to buy: -3"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 6: Since Chen already owns more flowers than needed, she doesn't need to buy any\n```python\nflowers_to_buy = -3\n# If the result is negative, Chen already has enough flowers\nflowers_to_purchase = max(0, flowers_to_buy)\nprint(f\"Flowers to purchase: {flowers_to_purchase}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nFlowers to purchase: 0"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 7: Calculate the total cost at the store\n```python\nflowers_to_purchase = 0\ncost_per_flower = 4\ntotal_cost = flowers_to_purchase * cost_per_flower\nprint(f\"Total cost at store: \u00a5{total_cost}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nTotal cost at store: \u00a50"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 8: Final Answer\n```python\nprint(f\"The answer is 0\")\n```\n\n###END OF CODE"
+                }
+            ]
+        },
+        {
+            "index": 4716,
+            "id": 94,
+            "instance": 16,
+            "question": "656 people apply for a job at Netflix. Of the people that apply, only 25% receive interviews. Of those who receive interviews, 50% receive a job offer. Of those who receive a job offer, three-sixths of the people accept the position. How many people accept the position?",
+            "expected_answer": "41",
+            "predicted_answer": "5",
+            "model_response": [
+                {
+                    "role": "user",
+                    "content": "Example 1:\nQ: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\n\nStep 1: Identify the initial number of trees\n```python\ntrees_initial = 15\nprint(f\"Initial trees: {trees_initial}\")\n```\n```output\nInitial trees: 15\n```\n\nStep 2: Identify the final number of trees\n```python\ntrees_after = 21\nprint(f\"Trees after planting: {trees_after}\")\n```\n```output\nTrees after planting: 21\n```\n\nStep 3: Calculate how many trees were planted\n```python\ntrees_initial = 15\ntrees_after = 21\ntrees_planted = trees_after - trees_initial\nprint(f\"Trees planted: {trees_planted}\")\n```\n```output\nTrees planted: 6\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 6\")\n```\n###END OF CODE\n\nExample 2:\nQ: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?\n\nStep 1: Identify initial cars and arriving cars\n```python\ncars_initial = 3\ncars_arrived = 2\nprint(f\"Initial: {cars_initial}, Arrived: {cars_arrived}\")\n```\n```output\nInitial: 3, Arrived: 2\n```\n\nStep 2: Calculate total cars\n```python\ncars_initial = 3\ncars_arrived = 2\ntotal_cars = cars_initial + cars_arrived\nprint(f\"Total cars: {total_cars}\")\n```\n```output\nTotal cars: 5\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 5\")\n```\n###END OF CODE\n\nExample 3:\nQ: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\n\nStep 1: Calculate total chocolates they had together\n```python\nleah_chocolates = 32\nsister_chocolates = 42\ntotal_chocolates = leah_chocolates + sister_chocolates\nprint(f\"Total chocolates: {total_chocolates}\")\n```\n```output\nTotal chocolates: 74\n```\n\nStep 2: Calculate chocolates left after eating\n```python\ntotal_chocolates = 74\nchocolates_eaten = 35\nchocolates_left = total_chocolates - chocolates_eaten\nprint(f\"Chocolates left: {chocolates_left}\")\n```\n```output\nChocolates left: 39\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 39\")\n```\n###END OF CODE\n\nExample 4:\nQ: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\n\nStep 1: Identify Jason's initial and final lollipop counts\n```python\njason_initial = 20\njason_after = 12\nprint(f\"Initial: {jason_initial}, After: {jason_after}\")\n```\n```output\nInitial: 20, After: 12\n```\n\nStep 2: Calculate lollipops given to Denny\n```python\njason_initial = 20\njason_after = 12\ngiven_to_denny = jason_initial - jason_after\nprint(f\"Given to Denny: {given_to_denny}\")\n```\n```output\nGiven to Denny: 8\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nExample 5:\nQ: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\n\nStep 1: Identify initial toys\n```python\ntoys_initial = 5\nprint(f\"Initial toys: {toys_initial}\")\n```\n```output\nInitial toys: 5\n```\n\nStep 2: Calculate toys received from mom and dad\n```python\ntoys_from_mom = 2\ntoys_from_dad = 2\ntotal_received = toys_from_mom + toys_from_dad\nprint(f\"Total received: {total_received}\")\n```\n```output\nTotal received: 4\n```\n\nStep 3: Calculate total toys now\n```python\ntoys_initial = 5\ntotal_received = 4\ntotal_toys = toys_initial + total_received\nprint(f\"Total toys: {total_toys}\")\n```\n```output\nTotal toys: 9\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 9\")\n```\n###END OF CODE\n\nExample 6:\nQ: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?\n\nStep 1: Identify initial computers and daily installation rate\n```python\ncomputers_initial = 9\ncomputers_per_day = 5\nprint(f\"Initial: {computers_initial}, Per day: {computers_per_day}\")\n```\n```output\nInitial: 9, Per day: 5\n```\n\nStep 2: Calculate number of days (Monday to Thursday)\n```python\n# Monday, Tuesday, Wednesday, Thursday = 4 days\nnum_days = 4\nprint(f\"Number of days: {num_days}\")\n```\n```output\nNumber of days: 4\n```\n\nStep 3: Calculate total computers added\n```python\ncomputers_per_day = 5\nnum_days = 4\ncomputers_added = computers_per_day * num_days\nprint(f\"Computers added: {computers_added}\")\n```\n```output\nComputers added: 20\n```\n\nStep 4: Calculate total computers now\n```python\ncomputers_initial = 9\ncomputers_added = 20\ncomputers_total = computers_initial + computers_added\nprint(f\"Total computers: {computers_total}\")\n```\n```output\nTotal computers: 29\n```\n\nStep 5: Final Answer\n```python\nprint(f\"The answer is 29\")\n```\n###END OF CODE\n\nExample 7:\nQ: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\n\nStep 1: Identify initial golf balls\n```python\ngolf_balls_initial = 58\nprint(f\"Initial golf balls: {golf_balls_initial}\")\n```\n```output\nInitial golf balls: 58\n```\n\nStep 2: Calculate golf balls after Tuesday's loss\n```python\ngolf_balls_initial = 58\nlost_tuesday = 23\nafter_tuesday = golf_balls_initial - lost_tuesday\nprint(f\"After Tuesday: {after_tuesday}\")\n```\n```output\nAfter Tuesday: 35\n```\n\nStep 3: Calculate golf balls after Wednesday's loss\n```python\nafter_tuesday = 35\nlost_wednesday = 2\nafter_wednesday = after_tuesday - lost_wednesday\nprint(f\"After Wednesday: {after_wednesday}\")\n```\n```output\nAfter Wednesday: 33\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 33\")\n```\n###END OF CODE\n\nExample 8:\nQ: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\n\nStep 1: Identify initial money and bagel details\n```python\nmoney_initial = 23\nnum_bagels = 5\nprice_per_bagel = 3\nprint(f\"Initial: ${money_initial}, Bagels: {num_bagels}, Price: ${price_per_bagel}\")\n```\n```output\nInitial: $23, Bagels: 5, Price: $3\n```\n\nStep 2: Calculate total spent on bagels\n```python\nnum_bagels = 5\nprice_per_bagel = 3\nmoney_spent = num_bagels * price_per_bagel\nprint(f\"Money spent: ${money_spent}\")\n```\n```output\nMoney spent: $15\n```\n\nStep 3: Calculate money left\n```python\nmoney_initial = 23\nmoney_spent = 15\nmoney_left = money_initial - money_spent\nprint(f\"Money left: ${money_left}\")\n```\n```output\nMoney left: $8\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nNow solve this problem step-by-step:\nQ: 656 people apply for a job at Netflix. Of the people that apply, only 25% receive interviews. Of those who receive interviews, 50% receive a job offer. Of those who receive a job offer, three-sixths of the people accept the position. How many people accept the position?"
+                },
+                {
+                    "role": "assistant",
+                    "content": "\nStep 1:"
+                },
+                {
+                    "role": "assistant",
+                    "content": " Identify the initial number of applicants\n```python\ntotal_applicants = 656\nprint(f\"Total applicants: {total_applicants}\")\n```\n"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nTotal applicants: 656"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 2: Calculate how many people receive interviews (25% of applicants)\n```python\ntotal_applicants = 656\ninterview_percentage = 0.25\npeople_with_interviews = total_applicants * interview_percentage\nprint(f\"People with interviews: {people_with_interviews}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nPeople with interviews: 164.0"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 3: Calculate how many people receive job offers (50% of those interviewed)\n```python\npeople_with_interviews = 164.0\noffer_percentage = 0.50\npeople_with_offers = people_with_interviews * offer_percentage\nprint(f\"People with job offers: {people_with_offers}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nPeople with job offers: 82.0"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 4: Calculate how many people accept the position (3/6 of those with offers)\n```python\npeople_with_offers = 82.0\nacceptance_fraction = 3/6  # three-sixths simplifies to 1/2\npeople_accepting = people_with_offers * acceptance_fraction\nprint(f\"People accepting the position: {people_accepting}\")\n```"
+                },
+                {
+                    "role": "user",
+                    "content": ">>> output\nPeople accepting the position: 41.0"
+                },
+                {
+                    "role": "assistant",
+                    "content": "Step 5: Final Answer\n```python\nprint(f\"The answer is {int(people_accepting)}\")\n```\n\n###END OF CODE"
+                }
+            ]
+        }
+    ],
+    "full": [
+        {
+            "index": 2207,
+            "id": 44,
+            "instance": 7,
+            "question": "There are 42 girls in the garden. If there are two-thirds the number of boys in the garden, how many kids are in the garden?",
+            "expected_answer": "70",
+            "predicted_answer": "70",
+            "correct": true
+        },
+        {
+            "index": 4783,
+            "id": 95,
+            "instance": 33,
+            "question": "There are 14 students playing volleyball and seven times that number playing badminton. There are 25 boys and 30 girls playing basketball. If each student only participates in one group, how many students are there in total?",
+            "expected_answer": "167",
+            "predicted_answer": "167",
+            "correct": true
+        },
+        {
+            "index": 1243,
+            "id": 24,
+            "instance": 43,
+            "question": "According to its nutritional info, a bag of cookies has 275 calories per serving. If a 100 oz bag has 5 servings, how many oz can you eat if your daily calorie target is 1920 and you have already consumed 1700 calories?",
+            "expected_answer": "16",
+            "predicted_answer": "16.0",
+            "correct": true
+        },
+        {
+            "index": 2258,
+            "id": 45,
+            "instance": 8,
+            "question": "Chen has a flower bed that is 165 meters long. Chen wants to fill her flower bed with plants. Chen's flowers grow 7 meters wide so she needs to leave 13.75 meters between every plant. Chen already owns 10 flowers. Each flowering plant costs \u00a54 at the store, how much money will Chen spend at the store to fill up her flower bed?",
+            "expected_answer": "8",
+            "predicted_answer": "0",
+            "correct": false
+        },
+        {
+            "index": 4716,
+            "id": 94,
+            "instance": 16,
+            "question": "656 people apply for a job at Netflix. Of the people that apply, only 25% receive interviews. Of those who receive interviews, 50% receive a job offer. Of those who receive a job offer, three-sixths of the people accept the position. How many people accept the position?",
+            "expected_answer": "41",
+            "predicted_answer": "5",
+            "correct": false
+        },
+        {
+            "index": 4277,
+            "id": 85,
+            "instance": 27,
+            "question": "If Haruka and Liam have 220 meters of fence between them, and they agree to split it with Liam getting 110 meters more than Haruka, how much is left over for Haruka?",
+            "expected_answer": "55",
+            "predicted_answer": "55.0",
+            "correct": true
+        },
+        {
+            "index": 4355,
+            "id": 87,
+            "instance": 5,
+            "question": "The biggest waterslide at Neptunes Kingdom is 400 meters long, and people slide down at 40 meters/minute. The second biggest waterslide is 210 meters long, but steeper, so people slide down at 70 meters/minute. How much longer does it take to ride the biggest slide compared to the second biggest slide?",
+            "expected_answer": "7",
+            "predicted_answer": "7",
+            "correct": true
+        },
+        {
+            "index": 3403,
+            "id": 68,
+            "instance": 3,
+            "question": "It takes Gabrielle 6 minutes to finish a riddle and 3 minutes to finish a brain teaser. Over the free time she solved 9 riddles and 5 brain teasers. How much time did she spend playing these games?",
+            "expected_answer": "69",
+            "predicted_answer": "69",
+            "correct": true
+        },
+        {
+            "index": 2320,
+            "id": 46,
+            "instance": 20,
+            "question": "Oakwood High School is holding graduation in their Auditorium this year which has space for 8700 people. After accounting for 750 seats for graduates and 450 seats for faculty attending, how many tickets would each graduate receive to give to their friends and family if the tickets are split equally?",
+            "expected_answer": "10",
+            "predicted_answer": "10",
+            "correct": true
+        },
+        {
+            "index": 4373,
+            "id": 87,
+            "instance": 23,
+            "question": "The biggest waterslide at Splash World is 360 yards long, and people slide down at 40 yards/minute. The second biggest waterslide is 300 yards long, but steeper, so people slide down at 100 yards/minute. How much longer does it take to ride the biggest slide compared to the second biggest slide?",
+            "expected_answer": "6",
+            "predicted_answer": "6",
+            "correct": true
+        }
+    ]
+}

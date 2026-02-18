@@ -1,0 +1,134 @@
+{
+    "summary": {
+        "N": 10,
+        "correct": 9,
+        "percent_correct": 90.0,
+        "indices": [
+            2207,
+            4783,
+            1243,
+            2258,
+            4716,
+            4277,
+            4355,
+            3403,
+            2320,
+            4373
+        ],
+        "correctness": [
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    "wrong": [
+        {
+            "index": 2258,
+            "id": 45,
+            "instance": 8,
+            "question": "Chen has a flower bed that is 165 meters long. Chen wants to fill her flower bed with plants. Chen's flowers grow 7 meters wide so she needs to leave 13.75 meters between every plant. Chen already owns 10 flowers. Each flowering plant costs \u00a54 at the store, how much money will Chen spend at the store to fill up her flower bed?",
+            "expected_answer": "8",
+            "predicted_answer": "-12",
+            "model_response": "\n    \"\"\"Chen has a flower bed that is 165 meters long. Chen wants to fill her flower bed with plants. Chen's flowers grow 7 meters wide so she needs to leave 13.75 meters between every plant. Chen already owns 10 flowers. Each flowering plant costs \u00a54 at the store, how much money will Chen spend at the store to fill up her flower bed?\"\"\"\n    flower_bed_length = 165\n    flower_width = 7\n    space_between = 13.75\n    flowers_owned = 10\n    cost_per_flower = 4\n    \n    # Space taken by each flower and the space after it\n    space_per_flower = flower_width + space_between\n    \n    # Number of flowers that can fit in the flower bed\n    flowers_needed = flower_bed_length / space_per_flower\n    \n    # Round down to get whole number of flowers\n    flowers_needed = int(flowers_needed)\n    \n    # Number of additional flowers to buy\n    flowers_to_buy = flowers_needed - flowers_owned\n    \n    # Total cost\n    total_cost = flowers_to_buy * cost_per_flower\n    result = total_cost\n    return result"
+        }
+    ],
+    "full": [
+        {
+            "index": 2207,
+            "id": 44,
+            "instance": 7,
+            "question": "There are 42 girls in the garden. If there are two-thirds the number of boys in the garden, how many kids are in the garden?",
+            "expected_answer": "70",
+            "predicted_answer": "70",
+            "correct": true
+        },
+        {
+            "index": 4783,
+            "id": 95,
+            "instance": 33,
+            "question": "There are 14 students playing volleyball and seven times that number playing badminton. There are 25 boys and 30 girls playing basketball. If each student only participates in one group, how many students are there in total?",
+            "expected_answer": "167",
+            "predicted_answer": "167",
+            "correct": true
+        },
+        {
+            "index": 1243,
+            "id": 24,
+            "instance": 43,
+            "question": "According to its nutritional info, a bag of cookies has 275 calories per serving. If a 100 oz bag has 5 servings, how many oz can you eat if your daily calorie target is 1920 and you have already consumed 1700 calories?",
+            "expected_answer": "16",
+            "predicted_answer": "16.0",
+            "correct": true
+        },
+        {
+            "index": 2258,
+            "id": 45,
+            "instance": 8,
+            "question": "Chen has a flower bed that is 165 meters long. Chen wants to fill her flower bed with plants. Chen's flowers grow 7 meters wide so she needs to leave 13.75 meters between every plant. Chen already owns 10 flowers. Each flowering plant costs \u00a54 at the store, how much money will Chen spend at the store to fill up her flower bed?",
+            "expected_answer": "8",
+            "predicted_answer": "-12",
+            "correct": false
+        },
+        {
+            "index": 4716,
+            "id": 94,
+            "instance": 16,
+            "question": "656 people apply for a job at Netflix. Of the people that apply, only 25% receive interviews. Of those who receive interviews, 50% receive a job offer. Of those who receive a job offer, three-sixths of the people accept the position. How many people accept the position?",
+            "expected_answer": "41",
+            "predicted_answer": "41",
+            "correct": true
+        },
+        {
+            "index": 4277,
+            "id": 85,
+            "instance": 27,
+            "question": "If Haruka and Liam have 220 meters of fence between them, and they agree to split it with Liam getting 110 meters more than Haruka, how much is left over for Haruka?",
+            "expected_answer": "55",
+            "predicted_answer": "55.0",
+            "correct": true
+        },
+        {
+            "index": 4355,
+            "id": 87,
+            "instance": 5,
+            "question": "The biggest waterslide at Neptunes Kingdom is 400 meters long, and people slide down at 40 meters/minute. The second biggest waterslide is 210 meters long, but steeper, so people slide down at 70 meters/minute. How much longer does it take to ride the biggest slide compared to the second biggest slide?",
+            "expected_answer": "7",
+            "predicted_answer": "7.0",
+            "correct": true
+        },
+        {
+            "index": 3403,
+            "id": 68,
+            "instance": 3,
+            "question": "It takes Gabrielle 6 minutes to finish a riddle and 3 minutes to finish a brain teaser. Over the free time she solved 9 riddles and 5 brain teasers. How much time did she spend playing these games?",
+            "expected_answer": "69",
+            "predicted_answer": "69",
+            "correct": true
+        },
+        {
+            "index": 2320,
+            "id": 46,
+            "instance": 20,
+            "question": "Oakwood High School is holding graduation in their Auditorium this year which has space for 8700 people. After accounting for 750 seats for graduates and 450 seats for faculty attending, how many tickets would each graduate receive to give to their friends and family if the tickets are split equally?",
+            "expected_answer": "10",
+            "predicted_answer": "10.0",
+            "correct": true
+        },
+        {
+            "index": 4373,
+            "id": 87,
+            "instance": 23,
+            "question": "The biggest waterslide at Splash World is 360 yards long, and people slide down at 40 yards/minute. The second biggest waterslide is 300 yards long, but steeper, so people slide down at 100 yards/minute. How much longer does it take to ride the biggest slide compared to the second biggest slide?",
+            "expected_answer": "6",
+            "predicted_answer": "6.0",
+            "correct": true
+        }
+    ]
+}

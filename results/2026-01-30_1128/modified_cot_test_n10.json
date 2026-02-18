@@ -1,0 +1,124 @@
+{
+    "summary": {
+        "N": 10,
+        "correct": 10,
+        "percent_correct": 100.0,
+        "indices": [
+            688,
+            4436,
+            3274,
+            5,
+            3667,
+            2632,
+            4129,
+            1102,
+            1009,
+            2029
+        ],
+        "correctness": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    "wrong": [],
+    "full": [
+        {
+            "index": 688,
+            "id": 13,
+            "instance": 38,
+            "question": "Aisha is an avid gardener. Last night, she received 36 new potted plants from her favorite plant nursery. She already has 8 potted plants on each of the 54 window ledges of her large country home. Feeling generous, she has decided that she will give 4 potted plants from each ledge to friends and family tomorrow. How many potted plants will Aisha remain with?",
+            "expected_answer": "252",
+            "predicted_answer": "252",
+            "correct": true
+        },
+        {
+            "index": 4436,
+            "id": 88,
+            "instance": 36,
+            "question": "Ananya can run two times faster than she can walk, but she can skip at a rate of speed that is 1/4 as fast as she can run. If she can skip at 3 miles per hour, how many miles can she travel in 10 hours if she spends three-sixths of the time running and 1/2 of the time walking?",
+            "expected_answer": "90",
+            "predicted_answer": "90",
+            "correct": true
+        },
+        {
+            "index": 3274,
+            "id": 65,
+            "instance": 24,
+            "question": "Camila is trying to decide whether to do her financial planning herself or hire one financial advisor. If she does it herself, she'll be able to do 8 fewer hours of consulting work, losing \u20ba52/hour in missed income. The financial advisor charges \u20ba106. How much more money will she have if she hires the financial advisor?",
+            "expected_answer": "310",
+            "predicted_answer": "310",
+            "correct": true
+        },
+        {
+            "index": 5,
+            "id": 0,
+            "instance": 5,
+            "question": "Gabrielle saw a 70-foot dolphin with 2 84-inch remoras attached to it. What percentage of the dolphin's body length is the combined length of the remoras?",
+            "expected_answer": "20",
+            "predicted_answer": "20",
+            "correct": true
+        },
+        {
+            "index": 3667,
+            "id": 73,
+            "instance": 17,
+            "question": "Comet Halley orbits the sun every 55 years. Esteban's dad saw the Comet when he was 20 years old. Esteban saw the comet a second time when he was three times the age his dad was when he saw the Comet. How old was Esteban when he saw the Comet for the first time?",
+            "expected_answer": "5",
+            "predicted_answer": "5",
+            "correct": true
+        },
+        {
+            "index": 2632,
+            "id": 52,
+            "instance": 32,
+            "question": "James has 5 \u20a320 bills. He buys 7 coloring books for \u20a35 each. He also buys 5 packs of trading cards for \u20a31 each. How much money does he have left?",
+            "expected_answer": "60",
+            "predicted_answer": "60",
+            "correct": true
+        },
+        {
+            "index": 4129,
+            "id": 82,
+            "instance": 29,
+            "question": "At the beginning of the conference, there were 46 artists and 74 lawyers. After two hours, 2/3 of the total number of people left. How many lawyers are left if 21 artists stayed at the conference?",
+            "expected_answer": "19",
+            "predicted_answer": "19",
+            "correct": true
+        },
+        {
+            "index": 1102,
+            "id": 22,
+            "instance": 2,
+            "question": "Quinn was preparing for a birthday party at her house, where she intended to serve beef stew. She noticed that she was out of plastic plates, so she bought a new package of plates. Later, her husband also bought a package of 19 new plates and gave them to Quinn. While Quinn was making the beef stew, she used seven of the plates to sample her beef stew. Later, when she went to set the table, she had a total of 30 plates. How many plates were in the package that Quinn bought?",
+            "expected_answer": "18",
+            "predicted_answer": "18",
+            "correct": true
+        },
+        {
+            "index": 1009,
+            "id": 20,
+            "instance": 9,
+            "question": "Arjun picks 141 apples on Saturday. Then he picks 257 apples on Sunday. On Monday, he picks quintuple the number of apples he did on Saturday. How many apples does Arjun have?",
+            "expected_answer": "1103",
+            "predicted_answer": "1103",
+            "correct": true
+        },
+        {
+            "index": 2029,
+            "id": 40,
+            "instance": 29,
+            "question": "Sakura went to the boardwalk for vacation. Her parents gave her \u00a51400 to buy whatever she wanted. At the gift shop, saltwater taffy was on sale for \"Buy 15 pounds at \u00a523 per pound, get 4 pounds 1/4 off.\" She scooped up 22 pounds. She also bought a mixed bag of starfish for \u00a511.75 and 13 keychains that were \u00a520.25 each. How much money does Sakura have left?",
+            "expected_answer": "642",
+            "predicted_answer": "642",
+            "correct": true
+        }
+    ]
+}

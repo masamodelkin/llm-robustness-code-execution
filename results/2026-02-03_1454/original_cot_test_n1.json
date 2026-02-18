@@ -1,0 +1,25 @@
+{
+    "summary": {
+        "N": 1,
+        "correct": 1,
+        "percent_correct": 100.0,
+        "indices": [
+            993
+        ],
+        "correctness": [
+            true
+        ]
+    },
+    "wrong": [],
+    "full": [
+        {
+            "index": 993,
+            "id": 19,
+            "instance": 43,
+            "question": "In a 60-item quiz, 40% of the questions are easy, and the rest are equally divided as average and difficult questions. If Aries is sure to get 75% of the easy questions, and half of the average and difficult questions correctly, how many points is she sure to get?",
+            "expected_answer": "36",
+            "predicted_answer": "36",
+            "correct": true
+        }
+    ]
+}

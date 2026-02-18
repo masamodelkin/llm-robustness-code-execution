@@ -1,0 +1,191 @@
+{
+    "summary": {
+        "N": 10,
+        "correct": 7,
+        "percent_correct": 70.0,
+        "indices": [
+            1727,
+            1192,
+            4161,
+            3927,
+            907,
+            3843,
+            4763,
+            3802,
+            4019,
+            1992
+        ],
+        "correctness": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true
+        ]
+    },
+    "wrong": [
+        {
+            "index": 3843,
+            "id": 76,
+            "instance": 43,
+            "question": "Noah caught 5 salmons last Monday, the first salmon he caught weighs 78 pounds, the second salmon he caught weighs 50 pounds, and the last salmon he caught weighs 25 pounds. If a pound of salmon costs \u00a52.0, how much will he earn after selling all the salmons to the market?",
+            "expected_answer": "406",
+            "predicted_answer": "306.0",
+            "model_response": [
+                {
+                    "role": "user",
+                    "content": "Example 1:\nQ: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\n\nStep 1: Identify the initial number of trees\n```python\ntrees_initial = 15\nprint(f\"Initial trees: {trees_initial}\")\n```\n```output\nInitial trees: 15\n```\n\nStep 2: Identify the final number of trees\n```python\ntrees_after = 21\nprint(f\"Trees after planting: {trees_after}\")\n```\n```output\nTrees after planting: 21\n```\n\nStep 3: Calculate how many trees were planted\n```python\ntrees_initial = 15\ntrees_after = 21\ntrees_planted = trees_after - trees_initial\nprint(f\"Trees planted: {trees_planted}\")\n```\n```output\nTrees planted: 6\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 6\")\n```\n###END OF CODE\n\nExample 2:\nQ: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?\n\nStep 1: Identify initial cars and arriving cars\n```python\ncars_initial = 3\ncars_arrived = 2\nprint(f\"Initial: {cars_initial}, Arrived: {cars_arrived}\")\n```\n```output\nInitial: 3, Arrived: 2\n```\n\nStep 2: Calculate total cars\n```python\ncars_initial = 3\ncars_arrived = 2\ntotal_cars = cars_initial + cars_arrived\nprint(f\"Total cars: {total_cars}\")\n```\n```output\nTotal cars: 5\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 5\")\n```\n###END OF CODE\n\nExample 3:\nQ: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\n\nStep 1: Calculate total chocolates they had together\n```python\nleah_chocolates = 32\nsister_chocolates = 42\ntotal_chocolates = leah_chocolates + sister_chocolates\nprint(f\"Total chocolates: {total_chocolates}\")\n```\n```output\nTotal chocolates: 74\n```\n\nStep 2: Calculate chocolates left after eating\n```python\ntotal_chocolates = 74\nchocolates_eaten = 35\nchocolates_left = total_chocolates - chocolates_eaten\nprint(f\"Chocolates left: {chocolates_left}\")\n```\n```output\nChocolates left: 39\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 39\")\n```\n###END OF CODE\n\nExample 4:\nQ: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\n\nStep 1: Identify Jason's initial and final lollipop counts\n```python\njason_initial = 20\njason_after = 12\nprint(f\"Initial: {jason_initial}, After: {jason_after}\")\n```\n```output\nInitial: 20, After: 12\n```\n\nStep 2: Calculate lollipops given to Denny\n```python\njason_initial = 20\njason_after = 12\ngiven_to_denny = jason_initial - jason_after\nprint(f\"Given to Denny: {given_to_denny}\")\n```\n```output\nGiven to Denny: 8\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nExample 5:\nQ: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\n\nStep 1: Identify initial toys\n```python\ntoys_initial = 5\nprint(f\"Initial toys: {toys_initial}\")\n```\n```output\nInitial toys: 5\n```\n\nStep 2: Calculate toys received from mom and dad\n```python\ntoys_from_mom = 2\ntoys_from_dad = 2\ntotal_received = toys_from_mom + toys_from_dad\nprint(f\"Total received: {total_received}\")\n```\n```output\nTotal received: 4\n```\n\nStep 3: Calculate total toys now\n```python\ntoys_initial = 5\ntotal_received = 4\ntotal_toys = toys_initial + total_received\nprint(f\"Total toys: {total_toys}\")\n```\n```output\nTotal toys: 9\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 9\")\n```\n###END OF CODE\n\nExample 6:\nQ: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?\n\nStep 1: Identify initial computers and daily installation rate\n```python\ncomputers_initial = 9\ncomputers_per_day = 5\nprint(f\"Initial: {computers_initial}, Per day: {computers_per_day}\")\n```\n```output\nInitial: 9, Per day: 5\n```\n\nStep 2: Calculate number of days (Monday to Thursday)\n```python\n# Monday, Tuesday, Wednesday, Thursday = 4 days\nnum_days = 4\nprint(f\"Number of days: {num_days}\")\n```\n```output\nNumber of days: 4\n```\n\nStep 3: Calculate total computers added\n```python\ncomputers_per_day = 5\nnum_days = 4\ncomputers_added = computers_per_day * num_days\nprint(f\"Computers added: {computers_added}\")\n```\n```output\nComputers added: 20\n```\n\nStep 4: Calculate total computers now\n```python\ncomputers_initial = 9\ncomputers_added = 20\ncomputers_total = computers_initial + computers_added\nprint(f\"Total computers: {computers_total}\")\n```\n```output\nTotal computers: 29\n```\n\nStep 5: Final Answer\n```python\nprint(f\"The answer is 29\")\n```\n###END OF CODE\n\nExample 7:\nQ: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\n\nStep 1: Identify initial golf balls\n```python\ngolf_balls_initial = 58\nprint(f\"Initial golf balls: {golf_balls_initial}\")\n```\n```output\nInitial golf balls: 58\n```\n\nStep 2: Calculate golf balls after Tuesday's loss\n```python\ngolf_balls_initial = 58\nlost_tuesday = 23\nafter_tuesday = golf_balls_initial - lost_tuesday\nprint(f\"After Tuesday: {after_tuesday}\")\n```\n```output\nAfter Tuesday: 35\n```\n\nStep 3: Calculate golf balls after Wednesday's loss\n```python\nafter_tuesday = 35\nlost_wednesday = 2\nafter_wednesday = after_tuesday - lost_wednesday\nprint(f\"After Wednesday: {after_wednesday}\")\n```\n```output\nAfter Wednesday: 33\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 33\")\n```\n###END OF CODE\n\nExample 8:\nQ: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\n\nStep 1: Identify initial money and bagel details\n```python\nmoney_initial = 23\nnum_bagels = 5\nprice_per_bagel = 3\nprint(f\"Initial: ${money_initial}, Bagels: {num_bagels}, Price: ${price_per_bagel}\")\n```\n```output\nInitial: $23, Bagels: 5, Price: $3\n```\n\nStep 2: Calculate total spent on bagels\n```python\nnum_bagels = 5\nprice_per_bagel = 3\nmoney_spent = num_bagels * price_per_bagel\nprint(f\"Money spent: ${money_spent}\")\n```\n```output\nMoney spent: $15\n```\n\nStep 3: Calculate money left\n```python\nmoney_initial = 23\nmoney_spent = 15\nmoney_left = money_initial - money_spent\nprint(f\"Money left: ${money_left}\")\n```\n```output\nMoney left: $8\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nNow solve this problem step-by-step:\nQ: Noah caught 5 salmons last Monday, the first salmon he caught weighs 78 pounds, the second salmon he caught weighs 50 pounds, and the last salmon he caught weighs 25 pounds. If a pound of salmon costs \u00a52.0, how much will he earn after selling all the salmons to the market?"
+                },
+                {
+                    "role": "assistant",
+                    "content": "\nStep 1:"
+                },
+                {
+                    "role": "assistant",
+                    "content": " Identify the weights of the salmons Noah caught\n```python\nfirst_salmon = 78  # pounds\nsecond_salmon = 50  # pounds\nlast_salmon = 25  # pounds\nprint(f\"First salmon: {first_salmon} lbs, Second salmon: {second_salmon} lbs, Last salmon: {last_salmon} lbs\")\n```\n```output\nFirst salmon: 78 lbs, Second salmon: 50 lbs, Last salmon: 25 lbs\n```\n\nStep 2: Calculate total weight of the three salmons mentioned\n```python\nfirst_salmon = 78\nsecond_salmon = 50\nlast_salmon = 25\ntotal_weight_three = first_salmon + second_salmon + last_salmon\nprint(f\"Total weight of three salmons: {total_weight_three} lbs\")\n```\n```output\nTotal weight of three salmons: 153 lbs\n```\n\nStep 3: Identify the price per pound and total number of salmons\n```python\nprice_per_pound = 2.0  # \u00a5\ntotal_salmons = 5\nprint(f\"Price per pound: \u00a5{price_per_pound}, Total salmons caught: {total_salmons}\")\n```\n```output\nPrice per pound: \u00a52.0, Total salmons caught: 5\n```\n\nStep 4: Note about the problem\n```python\n# The problem states Noah caught 5 salmons, but only gives weights for 3 of them\n# (first, second, and last). We can only calculate earnings based on the weights provided.\n# Assuming the problem intends for us to use the three weights given:\ntotal_weight = 153  # pounds (from the three salmons with known weights)\nprint(f\"Total weight available: {total_weight} lbs\")\n```\n```output\nTotal weight available: 153 lbs\n```\n\nStep 5: Calculate total earnings from selling all salmons\n```python\ntotal_weight = 153  # pounds\nprice_per_pound = 2.0  # \u00a5\ntotal_earnings = total_weight * price_per_pound\nprint(f\"Total earnings: \u00a5{total_earnings}\")\n```\n```output\nTotal earnings: \u00a5306.0\n```\n\nStep 6: Final Answer\n```python\nprint(f\"The answer is \u00a5306.0\")\n```\n###END OF CODE"
+                }
+            ]
+        },
+        {
+            "index": 3802,
+            "id": 76,
+            "instance": 2,
+            "question": "Faisal caught 4 cods last Friday, the first cod he caught weighs 47 kgs, the second cod he caught weighs 55 kgs, and the last cod he caught weighs 24 kgs. If a kg of cod costs \u00a51.0, how much will he earn after selling all the cods to the market?",
+            "expected_answer": "150",
+            "predicted_answer": "126",
+            "model_response": [
+                {
+                    "role": "user",
+                    "content": "Example 1:\nQ: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\n\nStep 1: Identify the initial number of trees\n```python\ntrees_initial = 15\nprint(f\"Initial trees: {trees_initial}\")\n```\n```output\nInitial trees: 15\n```\n\nStep 2: Identify the final number of trees\n```python\ntrees_after = 21\nprint(f\"Trees after planting: {trees_after}\")\n```\n```output\nTrees after planting: 21\n```\n\nStep 3: Calculate how many trees were planted\n```python\ntrees_initial = 15\ntrees_after = 21\ntrees_planted = trees_after - trees_initial\nprint(f\"Trees planted: {trees_planted}\")\n```\n```output\nTrees planted: 6\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 6\")\n```\n###END OF CODE\n\nExample 2:\nQ: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?\n\nStep 1: Identify initial cars and arriving cars\n```python\ncars_initial = 3\ncars_arrived = 2\nprint(f\"Initial: {cars_initial}, Arrived: {cars_arrived}\")\n```\n```output\nInitial: 3, Arrived: 2\n```\n\nStep 2: Calculate total cars\n```python\ncars_initial = 3\ncars_arrived = 2\ntotal_cars = cars_initial + cars_arrived\nprint(f\"Total cars: {total_cars}\")\n```\n```output\nTotal cars: 5\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 5\")\n```\n###END OF CODE\n\nExample 3:\nQ: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\n\nStep 1: Calculate total chocolates they had together\n```python\nleah_chocolates = 32\nsister_chocolates = 42\ntotal_chocolates = leah_chocolates + sister_chocolates\nprint(f\"Total chocolates: {total_chocolates}\")\n```\n```output\nTotal chocolates: 74\n```\n\nStep 2: Calculate chocolates left after eating\n```python\ntotal_chocolates = 74\nchocolates_eaten = 35\nchocolates_left = total_chocolates - chocolates_eaten\nprint(f\"Chocolates left: {chocolates_left}\")\n```\n```output\nChocolates left: 39\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 39\")\n```\n###END OF CODE\n\nExample 4:\nQ: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\n\nStep 1: Identify Jason's initial and final lollipop counts\n```python\njason_initial = 20\njason_after = 12\nprint(f\"Initial: {jason_initial}, After: {jason_after}\")\n```\n```output\nInitial: 20, After: 12\n```\n\nStep 2: Calculate lollipops given to Denny\n```python\njason_initial = 20\njason_after = 12\ngiven_to_denny = jason_initial - jason_after\nprint(f\"Given to Denny: {given_to_denny}\")\n```\n```output\nGiven to Denny: 8\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nExample 5:\nQ: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\n\nStep 1: Identify initial toys\n```python\ntoys_initial = 5\nprint(f\"Initial toys: {toys_initial}\")\n```\n```output\nInitial toys: 5\n```\n\nStep 2: Calculate toys received from mom and dad\n```python\ntoys_from_mom = 2\ntoys_from_dad = 2\ntotal_received = toys_from_mom + toys_from_dad\nprint(f\"Total received: {total_received}\")\n```\n```output\nTotal received: 4\n```\n\nStep 3: Calculate total toys now\n```python\ntoys_initial = 5\ntotal_received = 4\ntotal_toys = toys_initial + total_received\nprint(f\"Total toys: {total_toys}\")\n```\n```output\nTotal toys: 9\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 9\")\n```\n###END OF CODE\n\nExample 6:\nQ: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?\n\nStep 1: Identify initial computers and daily installation rate\n```python\ncomputers_initial = 9\ncomputers_per_day = 5\nprint(f\"Initial: {computers_initial}, Per day: {computers_per_day}\")\n```\n```output\nInitial: 9, Per day: 5\n```\n\nStep 2: Calculate number of days (Monday to Thursday)\n```python\n# Monday, Tuesday, Wednesday, Thursday = 4 days\nnum_days = 4\nprint(f\"Number of days: {num_days}\")\n```\n```output\nNumber of days: 4\n```\n\nStep 3: Calculate total computers added\n```python\ncomputers_per_day = 5\nnum_days = 4\ncomputers_added = computers_per_day * num_days\nprint(f\"Computers added: {computers_added}\")\n```\n```output\nComputers added: 20\n```\n\nStep 4: Calculate total computers now\n```python\ncomputers_initial = 9\ncomputers_added = 20\ncomputers_total = computers_initial + computers_added\nprint(f\"Total computers: {computers_total}\")\n```\n```output\nTotal computers: 29\n```\n\nStep 5: Final Answer\n```python\nprint(f\"The answer is 29\")\n```\n###END OF CODE\n\nExample 7:\nQ: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\n\nStep 1: Identify initial golf balls\n```python\ngolf_balls_initial = 58\nprint(f\"Initial golf balls: {golf_balls_initial}\")\n```\n```output\nInitial golf balls: 58\n```\n\nStep 2: Calculate golf balls after Tuesday's loss\n```python\ngolf_balls_initial = 58\nlost_tuesday = 23\nafter_tuesday = golf_balls_initial - lost_tuesday\nprint(f\"After Tuesday: {after_tuesday}\")\n```\n```output\nAfter Tuesday: 35\n```\n\nStep 3: Calculate golf balls after Wednesday's loss\n```python\nafter_tuesday = 35\nlost_wednesday = 2\nafter_wednesday = after_tuesday - lost_wednesday\nprint(f\"After Wednesday: {after_wednesday}\")\n```\n```output\nAfter Wednesday: 33\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 33\")\n```\n###END OF CODE\n\nExample 8:\nQ: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\n\nStep 1: Identify initial money and bagel details\n```python\nmoney_initial = 23\nnum_bagels = 5\nprice_per_bagel = 3\nprint(f\"Initial: ${money_initial}, Bagels: {num_bagels}, Price: ${price_per_bagel}\")\n```\n```output\nInitial: $23, Bagels: 5, Price: $3\n```\n\nStep 2: Calculate total spent on bagels\n```python\nnum_bagels = 5\nprice_per_bagel = 3\nmoney_spent = num_bagels * price_per_bagel\nprint(f\"Money spent: ${money_spent}\")\n```\n```output\nMoney spent: $15\n```\n\nStep 3: Calculate money left\n```python\nmoney_initial = 23\nmoney_spent = 15\nmoney_left = money_initial - money_spent\nprint(f\"Money left: ${money_left}\")\n```\n```output\nMoney left: $8\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nNow solve this problem step-by-step:\nQ: Faisal caught 4 cods last Friday, the first cod he caught weighs 47 kgs, the second cod he caught weighs 55 kgs, and the last cod he caught weighs 24 kgs. If a kg of cod costs \u00a51.0, how much will he earn after selling all the cods to the market?"
+                },
+                {
+                    "role": "assistant",
+                    "content": "\nStep 1:"
+                },
+                {
+                    "role": "assistant",
+                    "content": " Identify the weights of the cods caught\n```python\ncod1_weight = 47  # kg\ncod2_weight = 55  # kg\ncod3_weight = 24  # kg\nprint(f\"Cod 1: {cod1_weight} kg, Cod 2: {cod2_weight} kg, Cod 3: {cod3_weight} kg\")\n```\n```output\nCod 1: 47 kg, Cod 2: 55 kg, Cod 3: 24 kg\n```\n\nStep 2: Identify the price per kg\n```python\nprice_per_kg = 1.0  # \u00a5\nprint(f\"Price per kg: \u00a5{price_per_kg}\")\n```\n```output\nPrice per kg: \u00a51.0\n```\n\nStep 3: Calculate total weight of all cods\n```python\ncod1_weight = 47\ncod2_weight = 55\ncod3_weight = 24\ntotal_weight = cod1_weight + cod2_weight + cod3_weight\nprint(f\"Total weight: {total_weight} kg\")\n```\n```output\nTotal weight: 126 kg\n```\n\nStep 4: Calculate total earnings from selling all cods\n```python\ntotal_weight = 126\nprice_per_kg = 1.0\ntotal_earnings = total_weight * price_per_kg\nprint(f\"Total earnings: \u00a5{total_earnings}\")\n```\n```output\nTotal earnings: \u00a5126.0\n```\n\nStep 5: Final Answer\n```python\nprint(f\"The answer is 126\")\n```\n###END OF CODE"
+                }
+            ]
+        },
+        {
+            "index": 4019,
+            "id": 80,
+            "instance": 19,
+            "question": "The vending machines sell gum for 50 cents and pretzels for 75 cents. Yuki spent \u20a3600 and got 9 bags of gum and had 3% of his money left in change. How many pretzels did he buy?",
+            "expected_answer": "770",
+            "predicted_answer": "2",
+            "model_response": [
+                {
+                    "role": "user",
+                    "content": "Example 1:\nQ: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\n\nStep 1: Identify the initial number of trees\n```python\ntrees_initial = 15\nprint(f\"Initial trees: {trees_initial}\")\n```\n```output\nInitial trees: 15\n```\n\nStep 2: Identify the final number of trees\n```python\ntrees_after = 21\nprint(f\"Trees after planting: {trees_after}\")\n```\n```output\nTrees after planting: 21\n```\n\nStep 3: Calculate how many trees were planted\n```python\ntrees_initial = 15\ntrees_after = 21\ntrees_planted = trees_after - trees_initial\nprint(f\"Trees planted: {trees_planted}\")\n```\n```output\nTrees planted: 6\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 6\")\n```\n###END OF CODE\n\nExample 2:\nQ: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?\n\nStep 1: Identify initial cars and arriving cars\n```python\ncars_initial = 3\ncars_arrived = 2\nprint(f\"Initial: {cars_initial}, Arrived: {cars_arrived}\")\n```\n```output\nInitial: 3, Arrived: 2\n```\n\nStep 2: Calculate total cars\n```python\ncars_initial = 3\ncars_arrived = 2\ntotal_cars = cars_initial + cars_arrived\nprint(f\"Total cars: {total_cars}\")\n```\n```output\nTotal cars: 5\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 5\")\n```\n###END OF CODE\n\nExample 3:\nQ: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\n\nStep 1: Calculate total chocolates they had together\n```python\nleah_chocolates = 32\nsister_chocolates = 42\ntotal_chocolates = leah_chocolates + sister_chocolates\nprint(f\"Total chocolates: {total_chocolates}\")\n```\n```output\nTotal chocolates: 74\n```\n\nStep 2: Calculate chocolates left after eating\n```python\ntotal_chocolates = 74\nchocolates_eaten = 35\nchocolates_left = total_chocolates - chocolates_eaten\nprint(f\"Chocolates left: {chocolates_left}\")\n```\n```output\nChocolates left: 39\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 39\")\n```\n###END OF CODE\n\nExample 4:\nQ: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\n\nStep 1: Identify Jason's initial and final lollipop counts\n```python\njason_initial = 20\njason_after = 12\nprint(f\"Initial: {jason_initial}, After: {jason_after}\")\n```\n```output\nInitial: 20, After: 12\n```\n\nStep 2: Calculate lollipops given to Denny\n```python\njason_initial = 20\njason_after = 12\ngiven_to_denny = jason_initial - jason_after\nprint(f\"Given to Denny: {given_to_denny}\")\n```\n```output\nGiven to Denny: 8\n```\n\nStep 3: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nExample 5:\nQ: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\n\nStep 1: Identify initial toys\n```python\ntoys_initial = 5\nprint(f\"Initial toys: {toys_initial}\")\n```\n```output\nInitial toys: 5\n```\n\nStep 2: Calculate toys received from mom and dad\n```python\ntoys_from_mom = 2\ntoys_from_dad = 2\ntotal_received = toys_from_mom + toys_from_dad\nprint(f\"Total received: {total_received}\")\n```\n```output\nTotal received: 4\n```\n\nStep 3: Calculate total toys now\n```python\ntoys_initial = 5\ntotal_received = 4\ntotal_toys = toys_initial + total_received\nprint(f\"Total toys: {total_toys}\")\n```\n```output\nTotal toys: 9\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 9\")\n```\n###END OF CODE\n\nExample 6:\nQ: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?\n\nStep 1: Identify initial computers and daily installation rate\n```python\ncomputers_initial = 9\ncomputers_per_day = 5\nprint(f\"Initial: {computers_initial}, Per day: {computers_per_day}\")\n```\n```output\nInitial: 9, Per day: 5\n```\n\nStep 2: Calculate number of days (Monday to Thursday)\n```python\n# Monday, Tuesday, Wednesday, Thursday = 4 days\nnum_days = 4\nprint(f\"Number of days: {num_days}\")\n```\n```output\nNumber of days: 4\n```\n\nStep 3: Calculate total computers added\n```python\ncomputers_per_day = 5\nnum_days = 4\ncomputers_added = computers_per_day * num_days\nprint(f\"Computers added: {computers_added}\")\n```\n```output\nComputers added: 20\n```\n\nStep 4: Calculate total computers now\n```python\ncomputers_initial = 9\ncomputers_added = 20\ncomputers_total = computers_initial + computers_added\nprint(f\"Total computers: {computers_total}\")\n```\n```output\nTotal computers: 29\n```\n\nStep 5: Final Answer\n```python\nprint(f\"The answer is 29\")\n```\n###END OF CODE\n\nExample 7:\nQ: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\n\nStep 1: Identify initial golf balls\n```python\ngolf_balls_initial = 58\nprint(f\"Initial golf balls: {golf_balls_initial}\")\n```\n```output\nInitial golf balls: 58\n```\n\nStep 2: Calculate golf balls after Tuesday's loss\n```python\ngolf_balls_initial = 58\nlost_tuesday = 23\nafter_tuesday = golf_balls_initial - lost_tuesday\nprint(f\"After Tuesday: {after_tuesday}\")\n```\n```output\nAfter Tuesday: 35\n```\n\nStep 3: Calculate golf balls after Wednesday's loss\n```python\nafter_tuesday = 35\nlost_wednesday = 2\nafter_wednesday = after_tuesday - lost_wednesday\nprint(f\"After Wednesday: {after_wednesday}\")\n```\n```output\nAfter Wednesday: 33\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 33\")\n```\n###END OF CODE\n\nExample 8:\nQ: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\n\nStep 1: Identify initial money and bagel details\n```python\nmoney_initial = 23\nnum_bagels = 5\nprice_per_bagel = 3\nprint(f\"Initial: ${money_initial}, Bagels: {num_bagels}, Price: ${price_per_bagel}\")\n```\n```output\nInitial: $23, Bagels: 5, Price: $3\n```\n\nStep 2: Calculate total spent on bagels\n```python\nnum_bagels = 5\nprice_per_bagel = 3\nmoney_spent = num_bagels * price_per_bagel\nprint(f\"Money spent: ${money_spent}\")\n```\n```output\nMoney spent: $15\n```\n\nStep 3: Calculate money left\n```python\nmoney_initial = 23\nmoney_spent = 15\nmoney_left = money_initial - money_spent\nprint(f\"Money left: ${money_left}\")\n```\n```output\nMoney left: $8\n```\n\nStep 4: Final Answer\n```python\nprint(f\"The answer is 8\")\n```\n###END OF CODE\n\nNow solve this problem step-by-step:\nQ: The vending machines sell gum for 50 cents and pretzels for 75 cents. Yuki spent \u20a3600 and got 9 bags of gum and had 3% of his money left in change. How many pretzels did he buy?"
+                },
+                {
+                    "role": "assistant",
+                    "content": "\nStep 1:"
+                },
+                {
+                    "role": "assistant",
+                    "content": " Identify the given information\n```python\ngum_price = 0.50  # 50 cents\npretzel_price = 0.75  # 75 cents\ntotal_spent = 6.00  # \u20a3600 cents = \u20a36.00\ngum_bags = 9\nchange_percentage = 3  # 3% left in change\nprint(f\"Gum price: \u20a3{gum_price}, Pretzel price: \u20a3{pretzel_price}\")\nprint(f\"Total spent: \u20a3{total_spent}, Gum bags: {gum_bags}, Change: {change_percentage}%\")\n```\n```output\nGum price: \u20a30.5, Pretzel price: \u20a30.75\nTotal spent: \u20a36.0, Gum bags: 9, Change: {change_percentage}%\n```\n\nStep 2: Calculate the amount spent on gum\n```python\ngum_bags = 9\ngum_price = 0.50\nmoney_on_gum = gum_bags * gum_price\nprint(f\"Money spent on gum: \u20a3{money_on_gum}\")\n```\n```output\nMoney spent on gum: \u20a34.5\n```\n\nStep 3: Calculate the amount spent on pretzels\n```python\ntotal_spent = 6.00\nmoney_on_gum = 4.50\nmoney_on_pretzels = total_spent - money_on_gum\nprint(f\"Money spent on pretzels: \u20a3{money_on_pretzels}\")\n```\n```output\nMoney spent on pretzels: \u20a31.5\n```\n\nStep 4: Calculate the number of pretzels bought\n```python\nmoney_on_pretzels = 1.50\npretzel_price = 0.75\nnum_pretzels = money_on_pretzels / pretzel_price\nprint(f\"Number of pretzels: {int(num_pretzels)}\")\n```\n```output\nNumber of pretzels: 2\n```\n\nStep 5: Final Answer\n```python\nnum_pretzels = 2\nprint(f\"The answer is {num_pretzels}\")\n```\n###END OF CODE"
+                }
+            ]
+        }
+    ],
+    "full": [
+        {
+            "index": 1727,
+            "id": 34,
+            "instance": 27,
+            "question": "Mr. Johnson sold his apartment for $770000. He paid the transfer fees that amount to 2% of the selling price and also paid a brokerage fee that is 3% of the selling price. If he also paid $580000 for the remaining loan amount of the apartment, how much is Mr. Johnson's net proceeds from selling the apartment?",
+            "expected_answer": "151500",
+            "predicted_answer": "151500",
+            "correct": true
+        },
+        {
+            "index": 1192,
+            "id": 23,
+            "instance": 42,
+            "question": "Elena is knitting winter wear for her 5 grandchildren. They're quintuplets, so they're all the same size. She wants to make a shawl, sweater, cardigan, mittens, and leg warmers for each of them. It takes 9 skeins of wool to make a shawl, 7 for a sweater, 8 for a cardigan, 11 for a pair of mittens, and 17 for a pair of leg warmers. How many skeins of wool will she need to buy?",
+            "expected_answer": "260",
+            "predicted_answer": "260",
+            "correct": true
+        },
+        {
+            "index": 4161,
+            "id": 83,
+            "instance": 11,
+            "question": "The Williams family is busy making cupcakes. So far, they've made 7075 cupcakes. They have 1643 blueberry cupcakes, 2422 strawberry cupcakes, and some vanilla cupcakes. How many vanilla cupcakes have they made?",
+            "expected_answer": "3010",
+            "predicted_answer": "3010",
+            "correct": true
+        },
+        {
+            "index": 3927,
+            "id": 78,
+            "instance": 27,
+            "question": "There are 9 periods in the day for a normal student but James has to take 4 extra classes. Each class is 40 minutes long. He goes to class for 6 days a week. He then spends two-fourths of his weekly minutes each on Saturday and Sunday as extra learning time. How many hours a week does he spend learning?",
+            "expected_answer": "104",
+            "predicted_answer": "104",
+            "correct": true
+        },
+        {
+            "index": 907,
+            "id": 18,
+            "instance": 7,
+            "question": "Hiroshi went to buy some school supplies. He bought 6 rulers which cost $4.0 each, 8 erasers which cost $18.0 each, and a rim of bond paper which cost $21. How much did Hiroshi spend on everything?",
+            "expected_answer": "189",
+            "predicted_answer": "189",
+            "correct": true
+        },
+        {
+            "index": 3843,
+            "id": 76,
+            "instance": 43,
+            "question": "Noah caught 5 salmons last Monday, the first salmon he caught weighs 78 pounds, the second salmon he caught weighs 50 pounds, and the last salmon he caught weighs 25 pounds. If a pound of salmon costs \u00a52.0, how much will he earn after selling all the salmons to the market?",
+            "expected_answer": "406",
+            "predicted_answer": "306.0",
+            "correct": false
+        },
+        {
+            "index": 4763,
+            "id": 95,
+            "instance": 13,
+            "question": "There are 12 students playing volleyball and three times that number playing basketball. There are 12 boys and 14 girls playing football. If each student only participates in one group, how many students are there in total?",
+            "expected_answer": "74",
+            "predicted_answer": "74",
+            "correct": true
+        },
+        {
+            "index": 3802,
+            "id": 76,
+            "instance": 2,
+            "question": "Faisal caught 4 cods last Friday, the first cod he caught weighs 47 kgs, the second cod he caught weighs 55 kgs, and the last cod he caught weighs 24 kgs. If a kg of cod costs \u00a51.0, how much will he earn after selling all the cods to the market?",
+            "expected_answer": "150",
+            "predicted_answer": "126",
+            "correct": false
+        },
+        {
+            "index": 4019,
+            "id": 80,
+            "instance": 19,
+            "question": "The vending machines sell gum for 50 cents and pretzels for 75 cents. Yuki spent \u20a3600 and got 9 bags of gum and had 3% of his money left in change. How many pretzels did he buy?",
+            "expected_answer": "770",
+            "predicted_answer": "2",
+            "correct": false
+        },
+        {
+            "index": 1992,
+            "id": 39,
+            "instance": 42,
+            "question": "A janitor has to clean a office building with 90 rooms. They have 10 days to get it done. It takes them 10 minutes per room. If they work 15 hours each day, what percentage of their day, on average, is spent cleaning rooms?",
+            "expected_answer": "10",
+            "predicted_answer": "10",
+            "correct": true
+        }
+    ]
+}
